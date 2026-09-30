@@ -13,6 +13,7 @@ public/                     ← everything here is published as-is
 ├── cv.html                 full CV in HTML
 ├── topics.html             keyword / tools index (SEO + cross-links)
 ├── cite.html               BibTeX + share links
+├── 404.html                GitHub Pages not-found page
 ├── CV.pdf                  main CV
 ├── atom.xml rss.xml feed.json      feeds (update all three for news)
 ├── sitemap.xml robots.txt llms.txt humans.txt CITATION.cff
@@ -49,5 +50,6 @@ Add a row to the News table in `index.html`. Add the same item to `atom.xml`, `r
 
 - Monochrome only. Icons come from [Font Awesome](https://fontawesome.com/) via cdnjs.
 - Every page carries the same `#nav` block, the Umami script and a canonical URL. Copy them from an existing page.
-- Use root-relative paths (`/assets/...`).
+- Use relative paths (`assets/...`, `./`) so the site works on GitHub Pages, under any sub-path, or opened from disk.
+  The exception is `404.html`: GitHub serves it at any depth, so it uses absolute `https://nithin434.github.io/...` URLs.
 - Preview locally: `cd public && python3 -m http.server`
