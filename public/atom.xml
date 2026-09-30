@@ -1,72 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Nithin Jambula - Portfolio Updates</title>
-    <subtitle>Latest updates from Machine Learning Engineer Nithin Jambula</subtitle>
-    <link href="https://nithin434.github.io/atom.xml" rel="self"/>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="/assets/css/feed.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Nithin Jambula</title>
+  <subtitle>Robotics software, agentic AI, architecture &amp; infrastructure</subtitle>
+  <id>https://nithin434.github.io/</id>
+  <link rel="self" type="application/atom+xml" href="https://nithin434.github.io/atom.xml"/>
+  <link rel="alternate" type="text/html" href="https://nithin434.github.io/"/>
+  <updated>2026-09-30T00:00:00Z</updated>
+  <author><name>Nithin Jambula</name><email>nithinjambula89@gmail.com</email><uri>https://nithin434.github.io/</uri></author>
+  <icon>https://nithin434.github.io/assets/img/avatar/avatar-32.png</icon>
+  <logo>https://nithin434.github.io/assets/img/avatar/avatar-512.png</logo>
+  <rights>CC BY 4.0</rights>
+  <category term="Robotics"/>
+  <category term="Agentic AI"/>
+  <category term="AI Architecture"/>
+  <category term="ML Infrastructure"/>
+  <category term="Nithin Jambula"/>
+  <entry>
+    <title>Site rebuilt as plain HTML</title>
+    <id>tag:nithin434.github.io,2026-09-30:site-rebuild</id>
     <link href="https://nithin434.github.io/"/>
-    <id>https://nithin434.github.io/</id>
-    <updated>2025-01-01T00:00:00Z</updated>
-    <author>
-        <name>Nithin Jambula</name>
-        <email>nithinjambula89@gmail.com</email>
-        <uri>https://nithin434.github.io</uri>
-    </author>
-    <rights>© 2025 Nithin Jambula. All rights reserved.</rights>
-    <category term="Machine Learning"/>
-    <category term="Computer Vision"/>
-    <category term="Artificial Intelligence"/>
-    <category term="Deep Learning"/>
-    
-    <entry>
-        <title>Portfolio Launch</title>
-        <id>https://nithin434.github.io/updates/portfolio-launch</id>
-        <updated>2025-01-01T00:00:00Z</updated>
-        <summary>Launched comprehensive portfolio showcasing ML engineering projects and AI expertise</summary>
-        <content type="html">
-            <![CDATA[
-            <p>Welcome to my professional portfolio! This site showcases my journey as a Machine Learning Engineer specializing in Computer Vision, Deep Learning, and AI Systems.</p>
-            
-            <p>Featured projects include:</p>
-            <ul>
-                <li>EchoSight - Advanced computer vision system</li>
-                <li>16fps - Real-time object detection platform</li>
-                <li>Autonomous Vehicle AI - Self-driving car detection systems</li>
-                <li>AI Agents - Intelligent automation systems</li>
-            </ul>
-            
-            <p>Built with cutting-edge technologies including PyTorch, TensorFlow, Next.js, and modern AI architectures.</p>
-            ]]>
-        </content>
-        <author>
-            <name>Nithin Jambula</name>
-        </author>
-        <category term="Portfolio"/>
-        <category term="Launch"/>
-    </entry>
-    
-    <entry>
-        <title>Latest Projects Update</title>
-        <id>https://nithin434.github.io/updates/projects-update</id>
-        <updated>2025-01-01T00:00:00Z</updated>
-        <summary>Recent developments in computer vision and AI agent projects</summary>
-        <content type="html">
-            <![CDATA[
-            <p>Exciting developments in my current projects:</p>
-            
-            <h3>Computer Vision Advances</h3>
-            <p>Enhanced object detection accuracy and real-time performance in autonomous vehicle systems.</p>
-            
-            <h3>AI Agent Development</h3>
-            <p>Breakthrough in neuro-symbolic AI integration for more intelligent and explainable AI systems.</p>
-            
-            <h3>Research Publications</h3>
-            <p>Preparing research papers on novel computer vision architectures and their applications in autonomous systems.</p>
-            ]]>
-        </content>
-        <author>
-            <name>Nithin Jambula</name>
-        </author>
-        <category term="Projects"/>
-        <category term="Research"/>
-    </entry>
+    <updated>2026-09-30T00:00:00Z</updated>
+    <published>2026-09-30T00:00:00Z</published>
+    <summary>The portfolio is now plain HTML and CSS: pixel-art avatar, Atom/RSS/JSON feeds, CITATION.cff, vCard, topics index.</summary>
+  </entry>
+  <entry>
+    <title>16fps: multi-agent text-to-video, commercial rights sold</title>
+    <id>tag:nithin434.github.io,2025-10-01:16fps</id>
+    <link href="https://nithin434.github.io/projects.html#16fps"/>
+    <updated>2025-10-01T00:00:00Z</updated>
+    <published>2025-10-01T00:00:00Z</published>
+    <summary>A multi-agent system that generates consistent 60+ second videos from text using memory, tool use and reflection. Commercial rights and operational access sold to a media production company.</summary>
+  </entry>
+  <entry>
+    <title>DeepShield published at iSAI 2025</title>
+    <id>tag:nithin434.github.io,2025-06-01:deepshield-isai</id>
+    <link href="https://nithin434.github.io/projects.html#deepshield"/>
+    <updated>2025-06-01T00:00:00Z</updated>
+    <published>2025-06-01T00:00:00Z</published>
+    <summary>Face-swap deepfake detection: +22% accuracy, 18% fewer false positives, GAN-based data augmentation. Published at the 20th International Conference, iSAI 2025.</summary>
+  </entry>
+  <entry>
+    <title>Joined Ananta Technologies as Robotics Software Intern</title>
+    <id>tag:nithin434.github.io,2024-12-01:ananta</id>
+    <link href="https://nithin434.github.io/cv.html"/>
+    <updated>2024-12-01T00:00:00Z</updated>
+    <published>2024-12-01T00:00:00Z</published>
+    <summary>MuJoCo and Webots simulation testing for a US client; build tests ~40% faster; two robots deployed.</summary>
+  </entry>
+  <entry>
+    <title>EchoSight named awardee at Vikas 2024; patent filed</title>
+    <id>tag:nithin434.github.io,2024-11-01:echosight-vikas</id>
+    <link href="https://nithin434.github.io/projects.html#echosight"/>
+    <updated>2024-11-01T00:00:00Z</updated>
+    <published>2024-11-01T00:00:00Z</published>
+    <summary>Assistive navigation glasses running YOLOv8 at 45+ FPS on a Raspberry Pi, with spatial voice feedback.</summary>
+  </entry>
+  <entry>
+    <title>Student researcher at AIR Centre, VIT-AP</title>
+    <id>tag:nithin434.github.io,2024-06-01:air-centre</id>
+    <link href="https://nithin434.github.io/projects.html#neurosecapi"/>
+    <updated>2024-06-01T00:00:00Z</updated>
+    <published>2024-06-01T00:00:00Z</published>
+    <summary>NeuroSecAPI: neuro-symbolic, LLM-driven API vulnerability detection. +34% vulnerabilities found vs SAST/DAST, 70% less manual testing.</summary>
+  </entry>
+  <entry>
+    <title>Vulcan self-driving EV: perception &amp; navigation lead</title>
+    <id>tag:nithin434.github.io,2023-01-01:vulcan</id>
+    <link href="https://nithin434.github.io/projects.html#vulcan"/>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <published>2023-01-01T00:00:00Z</published>
+    <summary>DeepLabV3+ segmentation, lane following, CARLA + SAC + DAgger, real-time on NVIDIA Jetson.</summary>
+  </entry>
 </feed>

@@ -1,0 +1,32 @@
+# Nithin Jambula
+
+> Robotics software engineer and agentic AI systems builder, who also works on the architecture and infrastructure underneath both. Based in Amaravati, India. Open to robotics software, AI agent/LLM systems, AI architecture and ML infrastructure roles.
+
+- Email: nithinjambula89@gmail.com
+- GitHub: https://github.com/nithin434
+- LinkedIn: https://linkedin.com/in/nithin-jambula
+- CV (PDF): https://nithin434.github.io/CV.pdf
+
+## Current and recent roles
+- Robotics Software Intern, Ananta Technologies (Dec 2024 – present): MuJoCo/Webots simulation testing for a US client, ~40% faster build tests, two robots deployed.
+- Student Researcher, AIR Centre, VIT-AP University (Jun 2024 – Nov 2025): neuro-symbolic LLM-driven API vulnerability detection (+34% vs SAST/DAST, −70% manual testing).
+- Team Lead, Vulcan self-driving campus EV (Jan 2023 – present): ROS, DeepLabV3+, CARLA + SAC + DAgger, NVIDIA Jetson.
+- Machine Learning Engineer, Sripto (Dec 2023 – May 2024): RAG, PDF chatbots, NL-to-SQL.
+
+## Projects
+- [16fps](https://nithin434.github.io/projects.html#16fps): multi-agent text-to-video (memory, tool use, reflection); commercial rights sold.
+- [EchoSight](https://nithin434.github.io/projects.html#echosight): assistive glasses, YOLOv8 at 45+ FPS on a Raspberry Pi; patent pending; Vikas 2024 awardee.
+- [WOAT](https://nithin434.github.io/projects.html#woat): context-aware conversational agent on Gemini.
+- [DeepShield](https://nithin434.github.io/projects.html#deepshield): deepfake detection, published at iSAI 2025.
+- [NeuroSecAPI](https://nithin434.github.io/projects.html#neurosecapi): neuro-symbolic API security.
+
+## Pages
+- [Home](https://nithin434.github.io/)
+- [Projects](https://nithin434.github.io/projects.html)
+- [Gallery](https://nithin434.github.io/gallery.html)
+- [CV](https://nithin434.github.io/cv.html)
+- [Topics & tools](https://nithin434.github.io/topics.html)
+- [Cite](https://nithin434.github.io/cite.html)
+
+## Education
+- B.Tech CSE, VIT-AP University (2023–2027), CGPA 8.0/10

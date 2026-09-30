@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it as below."
+title: "Nithin Jambula: Robotics Software, Agentic AI, Architecture and Infrastructure"
+type: software
+authors:
+  - family-names: Jambula
+    given-names: Nithin
+    email: nithinjambula89@gmail.com
+    affiliation: "VIT-AP University; AIR Centre, VIT-AP"
+    website: "https://nithin434.github.io/"
+url: "https://nithin434.github.io/"
+repository-code: "https://github.com/nithin434/nithin434.github.io"
+license: CC-BY-4.0
+keywords:
+  - robotics software
+  - agentic AI
+  - multi-agent systems
+  - AI architecture
+  - ML infrastructure
+  - ROS
+  - autonomous vehicles
+references:
+  - type: conference-paper
+    title: "DeepShield: Face-Swap Deepfake Detection"
+    authors:
+      - family-names: Jambula
+        given-names: Nithin
+    year: 2025
+    conference:
+      name: "iSAI 2025, 20th International Conference"

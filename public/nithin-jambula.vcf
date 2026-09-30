@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jambula;Nithin;;;
+FN:Nithin Jambula
+TITLE:Robotics Software & Agentic AI Engineer
+ORG:Ananta Technologies
+EMAIL;TYPE=INTERNET:nithinjambula89@gmail.com
+TEL;TYPE=CELL:+919347632259
+ADR;TYPE=HOME:;;;Amaravati;Andhra Pradesh;;India
+URL:https://nithin434.github.io/
+X-SOCIALPROFILE;TYPE=github:https://github.com/nithin434
+X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/nithin-jambula
+PHOTO;VALUE=URI:https://nithin434.github.io/assets/img/avatar/avatar-192.png
+NOTE:Robotics software, agentic AI, architecture and infrastructure.
+END:VCARD

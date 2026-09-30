@@ -1,69 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humans.txt - Nithin Jambula Portfolio</title>
-    <meta name="description" content="The humans behind Nithin Jambula's portfolio website">
-</head>
-<body>
-    <pre>
 /* TEAM */
-    Developer & Designer: Nithin Jambula
-    Contact: nithinjambula89 [at] gmail.com
-    Twitter: @nithin434
-    GitHub: @nithin434
-    Location: Andhra Pradesh, India
+  Name: Nithin Jambula
+  Role: Robotics software · Agentic AI · Architecture & infrastructure
+  Contact: nithinjambula89 [at] gmail.com
+  GitHub: github.com/nithin434
+  LinkedIn: linkedin.com/in/nithin-jambula
+  Location: Amaravati, Andhra Pradesh, India
 
 /* THANKS */
-    VIT-AP University - For academic support and resources
-    Open Source Community - For amazing tools and libraries
-    Machine Learning Community - For continuous inspiration
-    
+  AIR Centre, VIT-AP: https://air.vitap.ac.in/
+  VIT-AP University: https://vitap.ac.in/
+
 /* SITE */
-    Last update: 2025/01/01
-    Language: English
-    Doctype: HTML5
-    Standards: HTML5, CSS3, ES2024, TypeScript
-    Components: React, Next.js, Tailwind CSS
-    Software: VS Code, Git, Node.js, pnpm
-    
-/* TECHNOLOGIES */
-    Frontend: React 18, Next.js 14, TypeScript, Tailwind CSS
-    Backend: Node.js, FastAPI, Python
-    AI/ML: PyTorch, TensorFlow, OpenCV, Scikit-learn
-    Cloud: Vercel, AWS, Google Cloud
-    Tools: Git, Docker, Jupyter, VS Code
-    
-/* VALUES */
-    Accessibility: WCAG 2.1 AA compliant
-    Performance: Core Web Vitals optimized
-    Security: Modern security headers
-    Privacy: GDPR compliant
-    SEO: Search engine optimized
-    
-/* PHILOSOPHY */
-    "Building intelligent systems that augment human capabilities"
-    "Bridging the gap between AI research and practical applications"
-    "Continuous learning in the ever-evolving field of Machine Learning"
-    
-/* FUN FACTS */
-    Favorite ML Framework: PyTorch
-    Coffee consumed while coding: ∞
-    Lines of code written: 100K+
-    AI models trained: 50+
-    Research papers read: 1000+
-    
-___________________________________________________________________________
-                              _   _   _   _   _   _   _   _  
-                             / \ / \ / \ / \ / \ / \ / \ / \ 
-                            | N | i | t | h | i | n |   | J |
-                             \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
-                              _   _   _   _   _   _   _   _  
-                             / \ / \ / \ / \ / \ / \ / \ / \ 
-                            | a | m | b | u | l | a |   | 🤖|
-                             \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
-___________________________________________________________________________
-    </pre>
-</body>
-</html>
+  Last update: 2026/09/30
+  Standards: HTML5, CSS
+  Components: none. Plain files, no framework.
+  Feeds: /atom.xml /rss.xml /feed.json
