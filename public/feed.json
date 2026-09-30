@@ -2,15 +2,15 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Nithin Jambula",
   "home_page_url": "https://nithin434.github.io/",
-  "feed_url": "https://nithin434.github.io/feed.json",
+  "feed_url": "https://nithin434.github.io/public/feed.json",
   "description": "Robotics software, agentic AI, architecture & infrastructure",
-  "icon": "https://nithin434.github.io/assets/img/avatar/avatar-512.png",
-  "favicon": "https://nithin434.github.io/assets/img/avatar/avatar-32.png",
+  "icon": "https://nithin434.github.io/public/assets/img/avatar/avatar-512.png",
+  "favicon": "https://nithin434.github.io/public/assets/img/avatar/avatar-32.png",
   "authors": [
     {
       "name": "Nithin Jambula",
       "url": "https://nithin434.github.io/",
-      "avatar": "https://nithin434.github.io/assets/img/avatar/avatar-192.png"
+      "avatar": "https://nithin434.github.io/public/assets/img/avatar/avatar-192.png"
     }
   ],
   "language": "en",
@@ -30,7 +30,7 @@
     },
     {
       "id": "tag:nithin434.github.io,2025-10-01:16fps",
-      "url": "https://nithin434.github.io/projects.html#16fps",
+      "url": "https://nithin434.github.io/public/projects.html#16fps",
       "title": "16fps: multi-agent text-to-video, commercial rights sold",
       "content_text": "A multi-agent system that generates consistent 60+ second videos from text using memory, tool use and reflection. Commercial rights and operational access sold to a media production company.",
       "date_published": "2025-10-01T00:00:00Z",
@@ -43,7 +43,7 @@
     },
     {
       "id": "tag:nithin434.github.io,2025-06-01:deepshield-isai",
-      "url": "https://nithin434.github.io/projects.html#deepshield",
+      "url": "https://nithin434.github.io/public/projects.html#deepshield",
       "title": "DeepShield published at iSAI 2025",
       "content_text": "Face-swap deepfake detection: +22% accuracy, 18% fewer false positives, GAN-based data augmentation. Published at the 20th International Conference, iSAI 2025.",
       "date_published": "2025-06-01T00:00:00Z",
@@ -56,7 +56,7 @@
     },
     {
       "id": "tag:nithin434.github.io,2024-12-01:ananta",
-      "url": "https://nithin434.github.io/cv.html",
+      "url": "https://nithin434.github.io/public/cv.html",
       "title": "Joined Ananta Technologies as Robotics Software Intern",
       "content_text": "MuJoCo and Webots simulation testing for a US client; build tests ~40% faster; two robots deployed.",
       "date_published": "2024-12-01T00:00:00Z",
@@ -69,7 +69,7 @@
     },
     {
       "id": "tag:nithin434.github.io,2024-11-01:echosight-vikas",
-      "url": "https://nithin434.github.io/projects.html#echosight",
+      "url": "https://nithin434.github.io/public/projects.html#echosight",
       "title": "EchoSight named awardee at Vikas 2024; patent filed",
       "content_text": "Assistive navigation glasses running YOLOv8 at 45+ FPS on a Raspberry Pi, with spatial voice feedback.",
       "date_published": "2024-11-01T00:00:00Z",
@@ -82,7 +82,7 @@
     },
     {
       "id": "tag:nithin434.github.io,2024-06-01:air-centre",
-      "url": "https://nithin434.github.io/projects.html#neurosecapi",
+      "url": "https://nithin434.github.io/public/projects.html#neurosecapi",
       "title": "Student researcher at AIR Centre, VIT-AP",
       "content_text": "NeuroSecAPI: neuro-symbolic, LLM-driven API vulnerability detection. +34% vulnerabilities found vs SAST/DAST, 70% less manual testing.",
       "date_published": "2024-06-01T00:00:00Z",
@@ -95,7 +95,7 @@
     },
     {
       "id": "tag:nithin434.github.io,2023-01-01:vulcan",
-      "url": "https://nithin434.github.io/projects.html#vulcan",
+      "url": "https://nithin434.github.io/public/projects.html#vulcan",
       "title": "Vulcan self-driving EV: perception & navigation lead",
       "content_text": "DeepLabV3+ segmentation, lane following, CARLA + SAC + DAgger, real-time on NVIDIA Jetson.",
       "date_published": "2023-01-01T00:00:00Z",

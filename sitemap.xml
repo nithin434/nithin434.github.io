@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://nithin434.github.io/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/avatar/avatar-512.png</image:loc><image:title>Pixel-art avatar of Nithin Jambula</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nithin434.github.io/public/projects.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/photos/car.jpg</image:loc><image:title>Vulcan self-driving campus EV</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/photos/echo.jpg</image:loc><image:title>EchoSight assistive navigation glasses</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/photos/vlan.jpg</image:loc><image:title>Vulcan at VLaunchpad 2025</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/photos/vikas.jpg</image:loc><image:title>Vikas 2024 Innovation Challenge award</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nithin434.github.io/public/gallery.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/photos/car.jpg</image:loc><image:title>Vulcan self-driving campus EV</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/photos/vlan.jpg</image:loc><image:title>Vulcan at VLaunchpad 2025</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/photos/echo.jpg</image:loc><image:title>EchoSight prototype</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/photos/vikas.jpg</image:loc><image:title>Vikas 2024 Innovation Challenge</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/certs/stanford.png</image:loc><image:title>Machine Learning certificate, Stanford / DeepLearning.AI</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/certs/IBM_DLF.png</image:loc><image:title>Deep Learning Fundamentals, IBM</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/certs/IBM_P.png</image:loc><image:title>Machine Learning with Python, IBM</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/certs/IBM_S.png</image:loc><image:title>ML Specialist Advanced, IBM</image:title></image:image>
+    <image:image><image:loc>https://nithin434.github.io/public/assets/img/certs/oyo.png</image:loc><image:title>Object Detection Bootcamp, Google</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://nithin434.github.io/public/cv.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nithin434.github.io/public/topics.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nithin434.github.io/public/cite.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nithin434.github.io/public/CV.pdf</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>

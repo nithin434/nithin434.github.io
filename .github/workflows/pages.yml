@@ -1,6 +1,8 @@
-# Publishes the plain-HTML site in public/ to GitHub Pages.
+# Publishes the plain-HTML site (repo root) to GitHub Pages.
 # Live at https://nithin434.github.io/ — no build step, nothing server-side.
-# Repo Settings → Pages → Source must be "GitHub Actions".
+# Works with either Pages source: "GitHub Actions" runs this workflow, and
+# "Deploy from a branch" (main, / root) serves the same files, because .nojekyll
+# turns Jekyll off and index.html sits at the root.
 name: Deploy site to Pages
 
 on:
@@ -30,12 +32,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # v3 keeps dot-folders such as public/.well-known in the upload; v4 drops
+      # v3 keeps dot-folders such as .well-known in the upload; v4 drops
       # hidden files unless include-hidden-files is set, so check before bumping.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment

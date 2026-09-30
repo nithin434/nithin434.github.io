@@ -5,10 +5,10 @@
   <link>https://nithin434.github.io/</link>
   <description>Robotics software, agentic AI, architecture &amp; infrastructure</description>
   <language>en</language>
-  <atom:link href="https://nithin434.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+  <atom:link href="https://nithin434.github.io/public/rss.xml" rel="self" type="application/rss+xml"/>
   <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
   <managingEditor>nithinjambula89@gmail.com (Nithin Jambula)</managingEditor>
-  <image><url>https://nithin434.github.io/assets/img/avatar/avatar-192.png</url><title>Nithin Jambula</title><link>https://nithin434.github.io/</link></image>
+  <image><url>https://nithin434.github.io/public/assets/img/avatar/avatar-192.png</url><title>Nithin Jambula</title><link>https://nithin434.github.io/</link></image>
   <category>Robotics</category>
   <category>Agentic AI</category>
   <category>AI Architecture</category>
@@ -23,42 +23,42 @@
   </item>
   <item>
     <title>16fps: multi-agent text-to-video, commercial rights sold</title>
-    <link>https://nithin434.github.io/projects.html#16fps</link>
+    <link>https://nithin434.github.io/public/projects.html#16fps</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2025-10-01:16fps</guid>
     <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
     <description>A multi-agent system that generates consistent 60+ second videos from text using memory, tool use and reflection. Commercial rights and operational access sold to a media production company.</description>
   </item>
   <item>
     <title>DeepShield published at iSAI 2025</title>
-    <link>https://nithin434.github.io/projects.html#deepshield</link>
+    <link>https://nithin434.github.io/public/projects.html#deepshield</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2025-06-01:deepshield-isai</guid>
     <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
     <description>Face-swap deepfake detection: +22% accuracy, 18% fewer false positives, GAN-based data augmentation. Published at the 20th International Conference, iSAI 2025.</description>
   </item>
   <item>
     <title>Joined Ananta Technologies as Robotics Software Intern</title>
-    <link>https://nithin434.github.io/cv.html</link>
+    <link>https://nithin434.github.io/public/cv.html</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2024-12-01:ananta</guid>
     <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
     <description>MuJoCo and Webots simulation testing for a US client; build tests ~40% faster; two robots deployed.</description>
   </item>
   <item>
     <title>EchoSight named awardee at Vikas 2024; patent filed</title>
-    <link>https://nithin434.github.io/projects.html#echosight</link>
+    <link>https://nithin434.github.io/public/projects.html#echosight</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2024-11-01:echosight-vikas</guid>
     <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
     <description>Assistive navigation glasses running YOLOv8 at 45+ FPS on a Raspberry Pi, with spatial voice feedback.</description>
   </item>
   <item>
     <title>Student researcher at AIR Centre, VIT-AP</title>
-    <link>https://nithin434.github.io/projects.html#neurosecapi</link>
+    <link>https://nithin434.github.io/public/projects.html#neurosecapi</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2024-06-01:air-centre</guid>
     <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
     <description>NeuroSecAPI: neuro-symbolic, LLM-driven API vulnerability detection. +34% vulnerabilities found vs SAST/DAST, 70% less manual testing.</description>
   </item>
   <item>
     <title>Vulcan self-driving EV: perception &amp; navigation lead</title>
-    <link>https://nithin434.github.io/projects.html#vulcan</link>
+    <link>https://nithin434.github.io/public/projects.html#vulcan</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2023-01-01:vulcan</guid>
     <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
     <description>DeepLabV3+ segmentation, lane following, CARLA + SAC + DAgger, real-time on NVIDIA Jetson.</description>

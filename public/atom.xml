@@ -4,12 +4,12 @@
   <title>Nithin Jambula</title>
   <subtitle>Robotics software, agentic AI, architecture &amp; infrastructure</subtitle>
   <id>https://nithin434.github.io/</id>
-  <link rel="self" type="application/atom+xml" href="https://nithin434.github.io/atom.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://nithin434.github.io/public/atom.xml"/>
   <link rel="alternate" type="text/html" href="https://nithin434.github.io/"/>
   <updated>2026-09-30T00:00:00Z</updated>
   <author><name>Nithin Jambula</name><email>nithinjambula89@gmail.com</email><uri>https://nithin434.github.io/</uri></author>
-  <icon>https://nithin434.github.io/assets/img/avatar/avatar-32.png</icon>
-  <logo>https://nithin434.github.io/assets/img/avatar/avatar-512.png</logo>
+  <icon>https://nithin434.github.io/public/assets/img/avatar/avatar-32.png</icon>
+  <logo>https://nithin434.github.io/public/assets/img/avatar/avatar-512.png</logo>
   <rights>CC BY 4.0</rights>
   <category term="Robotics"/>
   <category term="Agentic AI"/>
@@ -27,7 +27,7 @@
   <entry>
     <title>16fps: multi-agent text-to-video, commercial rights sold</title>
     <id>tag:nithin434.github.io,2025-10-01:16fps</id>
-    <link href="https://nithin434.github.io/projects.html#16fps"/>
+    <link href="https://nithin434.github.io/public/projects.html#16fps"/>
     <updated>2025-10-01T00:00:00Z</updated>
     <published>2025-10-01T00:00:00Z</published>
     <summary>A multi-agent system that generates consistent 60+ second videos from text using memory, tool use and reflection. Commercial rights and operational access sold to a media production company.</summary>
@@ -35,7 +35,7 @@
   <entry>
     <title>DeepShield published at iSAI 2025</title>
     <id>tag:nithin434.github.io,2025-06-01:deepshield-isai</id>
-    <link href="https://nithin434.github.io/projects.html#deepshield"/>
+    <link href="https://nithin434.github.io/public/projects.html#deepshield"/>
     <updated>2025-06-01T00:00:00Z</updated>
     <published>2025-06-01T00:00:00Z</published>
     <summary>Face-swap deepfake detection: +22% accuracy, 18% fewer false positives, GAN-based data augmentation. Published at the 20th International Conference, iSAI 2025.</summary>
@@ -43,7 +43,7 @@
   <entry>
     <title>Joined Ananta Technologies as Robotics Software Intern</title>
     <id>tag:nithin434.github.io,2024-12-01:ananta</id>
-    <link href="https://nithin434.github.io/cv.html"/>
+    <link href="https://nithin434.github.io/public/cv.html"/>
     <updated>2024-12-01T00:00:00Z</updated>
     <published>2024-12-01T00:00:00Z</published>
     <summary>MuJoCo and Webots simulation testing for a US client; build tests ~40% faster; two robots deployed.</summary>
@@ -51,7 +51,7 @@
   <entry>
     <title>EchoSight named awardee at Vikas 2024; patent filed</title>
     <id>tag:nithin434.github.io,2024-11-01:echosight-vikas</id>
-    <link href="https://nithin434.github.io/projects.html#echosight"/>
+    <link href="https://nithin434.github.io/public/projects.html#echosight"/>
     <updated>2024-11-01T00:00:00Z</updated>
     <published>2024-11-01T00:00:00Z</published>
     <summary>Assistive navigation glasses running YOLOv8 at 45+ FPS on a Raspberry Pi, with spatial voice feedback.</summary>
@@ -59,7 +59,7 @@
   <entry>
     <title>Student researcher at AIR Centre, VIT-AP</title>
     <id>tag:nithin434.github.io,2024-06-01:air-centre</id>
-    <link href="https://nithin434.github.io/projects.html#neurosecapi"/>
+    <link href="https://nithin434.github.io/public/projects.html#neurosecapi"/>
     <updated>2024-06-01T00:00:00Z</updated>
     <published>2024-06-01T00:00:00Z</published>
     <summary>NeuroSecAPI: neuro-symbolic, LLM-driven API vulnerability detection. +34% vulnerabilities found vs SAST/DAST, 70% less manual testing.</summary>
@@ -67,7 +67,7 @@
   <entry>
     <title>Vulcan self-driving EV: perception &amp; navigation lead</title>
     <id>tag:nithin434.github.io,2023-01-01:vulcan</id>
-    <link href="https://nithin434.github.io/projects.html#vulcan"/>
+    <link href="https://nithin434.github.io/public/projects.html#vulcan"/>
     <updated>2023-01-01T00:00:00Z</updated>
     <published>2023-01-01T00:00:00Z</published>
     <summary>DeepLabV3+ segmentation, lane following, CARLA + SAC + DAgger, real-time on NVIDIA Jetson.</summary>

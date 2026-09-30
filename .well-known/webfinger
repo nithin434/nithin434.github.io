@@ -39,8 +39,8 @@
     },
     {
       "rel": "avatar",
-      "type": "image/jpeg",
-      "href": "https://nithin434.github.io/profile-image.jpeg"
+      "type": "image/png",
+      "href": "https://nithin434.github.io/public/assets/img/avatar/avatar-512.png"
     },
     {
       "rel": "me",
@@ -62,7 +62,7 @@
     {
       "rel": "http://schemas.google.com/g/2010#updates-from",
       "type": "application/atom+xml",
-      "href": "https://nithin434.github.io/atom.xml"
+      "href": "https://nithin434.github.io/public/atom.xml"
     }
   ]
 }

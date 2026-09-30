@@ -11,8 +11,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
-PUB = ROOT / "public"
-OUT = PUB / "assets/img/avatar"
+OUT = ROOT / "public/assets/img/avatar"
 
 AVATAR_LEFT = """
 ................
@@ -68,7 +67,7 @@ def main():
     im.resize((320, 320), Image.NEAREST).save(OUT / "avatar.png", optimize=True)
     for s in (16, 32, 48, 180, 192, 512):
         im.resize((s, s), Image.NEAREST).save(OUT / f"avatar-{s}.png", optimize=True)
-    im.resize((48, 48), Image.NEAREST).save(PUB / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
+    im.resize((48, 48), Image.NEAREST).save(ROOT / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
 
     og = Image.new("RGB", (1200, 630), "white")
     og.paste(im.resize((448, 448), Image.NEAREST), (80, 91))
