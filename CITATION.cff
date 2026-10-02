@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you reference this work, please cite it as below."
-title: "Nithin Jambula: Robotics Software, Agentic AI, Architecture and Infrastructure"
+title: "Nithin Jambula: Software Engineer, Robotics and AI Systems"
 type: software
 authors:
   - family-names: Jambula
@@ -13,18 +13,36 @@ repository-code: "https://github.com/nithin434/nithin434.github.io"
 license: CC-BY-4.0
 keywords:
   - robotics software
-  - agentic AI
+  - AI systems
   - multi-agent systems
-  - AI architecture
-  - ML infrastructure
+  - RAG
+  - system design
   - ROS
   - autonomous vehicles
 references:
   - type: conference-paper
-    title: "DeepShield: Face-Swap Deepfake Detection"
+    title: "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing"
     authors:
       - family-names: Jambula
         given-names: Nithin
-    year: 2025
+      - family-names: Sethuraman
+        given-names: Sibi Chakkaravarthy
+    year: 2026
+    doi: 10.1109/AIRC69745.2026.11631384
     conference:
-      name: "iSAI 2025, 20th International Conference"
+      name: "2026 7th International Conference on Artificial Intelligence, Robotics, and Control (AIRC)"
+  - type: conference-paper
+    title: "Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency"
+    authors:
+      - family-names: Jambula
+        given-names: Nithin
+      - family-names: Reddy
+        given-names: Nalla Krishna
+      - family-names: Pandey
+        given-names: Kshama
+      - family-names: M
+        given-names: Mahesh
+    year: 2025
+    doi: 10.1109/ISAI-NLP66160.2025.11320726
+    conference:
+      name: "2025 20th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)"

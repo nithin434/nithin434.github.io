@@ -1,5 +1,8 @@
-# nithin434.github.io — everything is public; please index and cite.
+# nithin434.github.io: everything is public; please index and cite.
 User-agent: *
 Allow: /
+Disallow: /tools/
+Disallow: /resume/
 
 Sitemap: https://nithin434.github.io/sitemap.xml
+Sitemap: https://nithin434.github.io/public/atom.xml

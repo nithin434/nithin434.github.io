@@ -3,7 +3,7 @@
   "title": "Nithin Jambula",
   "home_page_url": "https://nithin434.github.io/",
   "feed_url": "https://nithin434.github.io/public/feed.json",
-  "description": "Robotics software, agentic AI, architecture & infrastructure",
+  "description": "Software engineer: robotics and AI systems",
   "icon": "https://nithin434.github.io/public/assets/img/avatar/avatar-512.png",
   "favicon": "https://nithin434.github.io/public/assets/img/avatar/avatar-32.png",
   "authors": [
@@ -16,81 +16,111 @@
   "language": "en",
   "items": [
     {
-      "id": "tag:nithin434.github.io,2026-09-30:site-rebuild",
-      "url": "https://nithin434.github.io/",
-      "title": "Site rebuilt as plain HTML",
-      "content_text": "The portfolio is now plain HTML and CSS: pixel-art avatar, Atom/RSS/JSON feeds, CITATION.cff, vCard, topics index.",
-      "date_published": "2026-09-30T00:00:00Z",
+      "id": "tag:nithin434.github.io,2026-04-17:context-rag",
+      "url": "https://nithin434.github.io/public/projects.html#rag",
+      "title": "Context-Preserving RAG system for enterprise documents",
+      "content_text": "Source-backed answers from PDF, DOCX and text files. Combines vector and BM25 keyword search, routes each question to the best search strategy, and records which passages every answer used.",
+      "date_published": "2026-04-17T00:00:00Z",
       "tags": [
         "Robotics",
-        "Agentic AI",
-        "AI Architecture",
-        "ML Infrastructure"
+        "AI Systems",
+        "System Design"
+      ]
+    },
+    {
+      "id": "tag:nithin434.github.io,2026-04-01:airc-2026",
+      "url": "https://doi.org/10.1109/AIRC69745.2026.11631384",
+      "title": "Paper at IEEE AIRC 2026: neuro-symbolic API security testing",
+      "content_text": "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing. 7th International Conference on Artificial Intelligence, Robotics, and Control. DOI 10.1109/AIRC69745.2026.11631384.",
+      "date_published": "2026-04-01T00:00:00Z",
+      "tags": [
+        "Robotics",
+        "AI Systems",
+        "System Design"
+      ]
+    },
+    {
+      "id": "tag:nithin434.github.io,2025-12-26:apriltag-rover",
+      "url": "https://nithin434.github.io/public/projects.html#rover",
+      "title": "AprilTag docking rover (ROS 2)",
+      "content_text": "A ROS 2 rover that finds and docks with its station on its own using AprilTag pose estimation and a multi-stage mission state machine.",
+      "date_published": "2025-12-26T00:00:00Z",
+      "tags": [
+        "Robotics",
+        "AI Systems",
+        "System Design"
+      ]
+    },
+    {
+      "id": "tag:nithin434.github.io,2025-12-01:ananta-swe",
+      "url": "https://nithin434.github.io/public/cv.html",
+      "title": "Software Engineer, Robotics & Autonomy at Ananta Technologies",
+      "content_text": "Behavior trees, AprilTag-guided robot positioning, a 50+ scenario MuJoCo/Webots test suite (35% faster validation) and 2 robots taken from simulation to production.",
+      "date_published": "2025-12-01T00:00:00Z",
+      "tags": [
+        "Robotics",
+        "AI Systems",
+        "System Design"
+      ]
+    },
+    {
+      "id": "tag:nithin434.github.io,2025-11-12:isai-nlp-2025",
+      "url": "https://doi.org/10.1109/ISAI-NLP66160.2025.11320726",
+      "title": "Paper at IEEE iSAI-NLP 2025: deepfake and counterfeit currency detection",
+      "content_text": "Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency. 20th iSAI-NLP. DOI 10.1109/ISAI-NLP66160.2025.11320726.",
+      "date_published": "2025-11-12T00:00:00Z",
+      "tags": [
+        "Robotics",
+        "AI Systems",
+        "System Design"
+      ]
+    },
+    {
+      "id": "tag:nithin434.github.io,2025-10-25:patchpilot",
+      "url": "https://nithin434.github.io/public/projects.html#patchpilot",
+      "title": "PatchPilot: multi-agent code review with LangGraph",
+      "content_text": "AI agents review GitHub pull requests for security, quality and logic. A LangGraph state graph routes each pull request, and ChromaDB memory lets reviews learn from past issues.",
+      "date_published": "2025-10-25T00:00:00Z",
+      "tags": [
+        "Robotics",
+        "AI Systems",
+        "System Design"
       ]
     },
     {
       "id": "tag:nithin434.github.io,2025-10-01:16fps",
       "url": "https://nithin434.github.io/public/projects.html#16fps",
-      "title": "16fps: multi-agent text-to-video, commercial rights sold",
-      "content_text": "A multi-agent system that generates consistent 60+ second videos from text using memory, tool use and reflection. Commercial rights and operational access sold to a media production company.",
+      "title": "16fps: multi-agent video generation, commercial rights sold",
+      "content_text": "A multi-agent system that generates consistent videos over a minute long from text, using memory, tool use and self-review. Commercial rights and access sold to a media production company.",
       "date_published": "2025-10-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "Agentic AI",
-        "AI Architecture",
-        "ML Infrastructure"
-      ]
-    },
-    {
-      "id": "tag:nithin434.github.io,2025-06-01:deepshield-isai",
-      "url": "https://nithin434.github.io/public/projects.html#deepshield",
-      "title": "DeepShield published at iSAI 2025",
-      "content_text": "Face-swap deepfake detection: +22% accuracy, 18% fewer false positives, GAN-based data augmentation. Published at the 20th International Conference, iSAI 2025.",
-      "date_published": "2025-06-01T00:00:00Z",
-      "tags": [
-        "Robotics",
-        "Agentic AI",
-        "AI Architecture",
-        "ML Infrastructure"
-      ]
-    },
-    {
-      "id": "tag:nithin434.github.io,2024-12-01:ananta",
-      "url": "https://nithin434.github.io/public/cv.html",
-      "title": "Joined Ananta Technologies as Robotics Software Intern",
-      "content_text": "MuJoCo and Webots simulation testing for a US client; build tests ~40% faster; two robots deployed.",
-      "date_published": "2024-12-01T00:00:00Z",
-      "tags": [
-        "Robotics",
-        "Agentic AI",
-        "AI Architecture",
-        "ML Infrastructure"
+        "AI Systems",
+        "System Design"
       ]
     },
     {
       "id": "tag:nithin434.github.io,2024-11-01:echosight-vikas",
       "url": "https://nithin434.github.io/public/projects.html#echosight",
       "title": "EchoSight named awardee at Vikas 2024; patent filed",
-      "content_text": "Assistive navigation glasses running YOLOv8 at 45+ FPS on a Raspberry Pi, with spatial voice feedback.",
+      "content_text": "Navigation glasses for the visually impaired running YOLOv8 at 45+ FPS on a Raspberry Pi, with spoken directions.",
       "date_published": "2024-11-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "Agentic AI",
-        "AI Architecture",
-        "ML Infrastructure"
+        "AI Systems",
+        "System Design"
       ]
     },
     {
       "id": "tag:nithin434.github.io,2024-06-01:air-centre",
       "url": "https://nithin434.github.io/public/projects.html#neurosecapi",
-      "title": "Student researcher at AIR Centre, VIT-AP",
-      "content_text": "NeuroSecAPI: neuro-symbolic, LLM-driven API vulnerability detection. +34% vulnerabilities found vs SAST/DAST, 70% less manual testing.",
+      "title": "Student research engineer at AIR Centre, VIT-AP",
+      "content_text": "LLM agents with rule-based reasoning for API security testing (+34% vulnerabilities found, 70% less manual testing), and a real-time AI voice calling agent.",
       "date_published": "2024-06-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "Agentic AI",
-        "AI Architecture",
-        "ML Infrastructure"
+        "AI Systems",
+        "System Design"
       ]
     },
     {
@@ -101,9 +131,8 @@
       "date_published": "2023-01-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "Agentic AI",
-        "AI Architecture",
-        "ML Infrastructure"
+        "AI Systems",
+        "System Design"
       ]
     }
   ]

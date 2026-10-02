@@ -20,7 +20,6 @@ It's plain HTML and CSS with no build step. Live at <https://nithin434.github.io
 │   ├── humans.txt nithin-jambula.vcf manifest.json opensearch.xml browserconfig.xml
 │   └── assets/
 │       ├── css/                style.css (site), feed.css (styles feeds in the browser)
-│       ├── docs/               other PDFs (CV-ml.pdf)
 │       └── img/
 │           ├── avatar/         pixel avatar, sizes, og-image.jpg (generated)
 │           ├── photos/         800px web copies used on pages

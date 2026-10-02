@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
     <ShortName>Nithin Jambula</ShortName>
-    <Description>Search Nithin Jambula's Portfolio - robotics software &amp; agentic AI</Description>
+    <Description>Search Nithin Jambula's Portfolio - robotics &amp; AI systems</Description>
     <InputEncoding>UTF-8</InputEncoding>
     <Image width="16" height="16" type="image/x-icon">https://nithin434.github.io/favicon.ico</Image>
     <Image width="32" height="32" type="image/png">https://nithin434.github.io/public/assets/img/avatar/avatar-32.png</Image>
@@ -10,7 +10,7 @@
     <Url type="application/opensearchdescription+xml" rel="self" template="https://nithin434.github.io/public/opensearch.xml"/>
     <moz:SearchForm>https://nithin434.github.io/</moz:SearchForm>
     <Contact>nithinjambula89@gmail.com</Contact>
-    <Tags>robotics agentic-ai ai-agents architecture infrastructure portfolio</Tags>
+    <Tags>robotics ai-systems ai-agents rag system-design portfolio</Tags>
     <Language>en-US</Language>
     <Language>*</Language>
     <AdultContent>false</AdultContent>

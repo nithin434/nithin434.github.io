@@ -1,6 +1,6 @@
 /* TEAM */
   Name: Nithin Jambula
-  Role: Robotics software · Agentic AI · Architecture & infrastructure
+  Role: Software engineer · Robotics & AI systems
   Contact: nithinjambula89 [at] gmail.com
   GitHub: github.com/nithin434
   LinkedIn: linkedin.com/in/nithin-jambula

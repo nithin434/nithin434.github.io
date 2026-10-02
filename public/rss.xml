@@ -3,58 +3,78 @@
 <channel>
   <title>Nithin Jambula</title>
   <link>https://nithin434.github.io/</link>
-  <description>Robotics software, agentic AI, architecture &amp; infrastructure</description>
+  <description>Software engineer: robotics and AI systems</description>
   <language>en</language>
   <atom:link href="https://nithin434.github.io/public/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate>
   <managingEditor>nithinjambula89@gmail.com (Nithin Jambula)</managingEditor>
   <image><url>https://nithin434.github.io/public/assets/img/avatar/avatar-192.png</url><title>Nithin Jambula</title><link>https://nithin434.github.io/</link></image>
   <category>Robotics</category>
-  <category>Agentic AI</category>
-  <category>AI Architecture</category>
-  <category>ML Infrastructure</category>
+  <category>AI Systems</category>
+  <category>System Design</category>
   <category>Nithin Jambula</category>
   <item>
-    <title>Site rebuilt as plain HTML</title>
-    <link>https://nithin434.github.io/</link>
-    <guid isPermaLink="false">tag:nithin434.github.io,2026-09-30:site-rebuild</guid>
-    <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    <description>The portfolio is now plain HTML and CSS: pixel-art avatar, Atom/RSS/JSON feeds, CITATION.cff, vCard, topics index.</description>
+    <title>Context-Preserving RAG system for enterprise documents</title>
+    <link>https://nithin434.github.io/public/projects.html#rag</link>
+    <guid isPermaLink="false">tag:nithin434.github.io,2026-04-17:context-rag</guid>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    <description>Source-backed answers from PDF, DOCX and text files. Combines vector and BM25 keyword search, routes each question to the best search strategy, and records which passages every answer used.</description>
   </item>
   <item>
-    <title>16fps: multi-agent text-to-video, commercial rights sold</title>
+    <title>Paper at IEEE AIRC 2026: neuro-symbolic API security testing</title>
+    <link>https://doi.org/10.1109/AIRC69745.2026.11631384</link>
+    <guid isPermaLink="false">tag:nithin434.github.io,2026-04-01:airc-2026</guid>
+    <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    <description>A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing. 7th International Conference on Artificial Intelligence, Robotics, and Control. DOI 10.1109/AIRC69745.2026.11631384.</description>
+  </item>
+  <item>
+    <title>AprilTag docking rover (ROS 2)</title>
+    <link>https://nithin434.github.io/public/projects.html#rover</link>
+    <guid isPermaLink="false">tag:nithin434.github.io,2025-12-26:apriltag-rover</guid>
+    <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+    <description>A ROS 2 rover that finds and docks with its station on its own using AprilTag pose estimation and a multi-stage mission state machine.</description>
+  </item>
+  <item>
+    <title>Software Engineer, Robotics &amp; Autonomy at Ananta Technologies</title>
+    <link>https://nithin434.github.io/public/cv.html</link>
+    <guid isPermaLink="false">tag:nithin434.github.io,2025-12-01:ananta-swe</guid>
+    <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    <description>Behavior trees, AprilTag-guided robot positioning, a 50+ scenario MuJoCo/Webots test suite (35% faster validation) and 2 robots taken from simulation to production.</description>
+  </item>
+  <item>
+    <title>Paper at IEEE iSAI-NLP 2025: deepfake and counterfeit currency detection</title>
+    <link>https://doi.org/10.1109/ISAI-NLP66160.2025.11320726</link>
+    <guid isPermaLink="false">tag:nithin434.github.io,2025-11-12:isai-nlp-2025</guid>
+    <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    <description>Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency. 20th iSAI-NLP. DOI 10.1109/ISAI-NLP66160.2025.11320726.</description>
+  </item>
+  <item>
+    <title>PatchPilot: multi-agent code review with LangGraph</title>
+    <link>https://nithin434.github.io/public/projects.html#patchpilot</link>
+    <guid isPermaLink="false">tag:nithin434.github.io,2025-10-25:patchpilot</guid>
+    <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+    <description>AI agents review GitHub pull requests for security, quality and logic. A LangGraph state graph routes each pull request, and ChromaDB memory lets reviews learn from past issues.</description>
+  </item>
+  <item>
+    <title>16fps: multi-agent video generation, commercial rights sold</title>
     <link>https://nithin434.github.io/public/projects.html#16fps</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2025-10-01:16fps</guid>
     <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    <description>A multi-agent system that generates consistent 60+ second videos from text using memory, tool use and reflection. Commercial rights and operational access sold to a media production company.</description>
-  </item>
-  <item>
-    <title>DeepShield published at iSAI 2025</title>
-    <link>https://nithin434.github.io/public/projects.html#deepshield</link>
-    <guid isPermaLink="false">tag:nithin434.github.io,2025-06-01:deepshield-isai</guid>
-    <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-    <description>Face-swap deepfake detection: +22% accuracy, 18% fewer false positives, GAN-based data augmentation. Published at the 20th International Conference, iSAI 2025.</description>
-  </item>
-  <item>
-    <title>Joined Ananta Technologies as Robotics Software Intern</title>
-    <link>https://nithin434.github.io/public/cv.html</link>
-    <guid isPermaLink="false">tag:nithin434.github.io,2024-12-01:ananta</guid>
-    <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-    <description>MuJoCo and Webots simulation testing for a US client; build tests ~40% faster; two robots deployed.</description>
+    <description>A multi-agent system that generates consistent videos over a minute long from text, using memory, tool use and self-review. Commercial rights and access sold to a media production company.</description>
   </item>
   <item>
     <title>EchoSight named awardee at Vikas 2024; patent filed</title>
     <link>https://nithin434.github.io/public/projects.html#echosight</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2024-11-01:echosight-vikas</guid>
     <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-    <description>Assistive navigation glasses running YOLOv8 at 45+ FPS on a Raspberry Pi, with spatial voice feedback.</description>
+    <description>Navigation glasses for the visually impaired running YOLOv8 at 45+ FPS on a Raspberry Pi, with spoken directions.</description>
   </item>
   <item>
-    <title>Student researcher at AIR Centre, VIT-AP</title>
+    <title>Student research engineer at AIR Centre, VIT-AP</title>
     <link>https://nithin434.github.io/public/projects.html#neurosecapi</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2024-06-01:air-centre</guid>
     <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-    <description>NeuroSecAPI: neuro-symbolic, LLM-driven API vulnerability detection. +34% vulnerabilities found vs SAST/DAST, 70% less manual testing.</description>
+    <description>LLM agents with rule-based reasoning for API security testing (+34% vulnerabilities found, 70% less manual testing), and a real-time AI voice calling agent.</description>
   </item>
   <item>
     <title>Vulcan self-driving EV: perception &amp; navigation lead</title>

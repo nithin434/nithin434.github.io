@@ -1,0 +1,176 @@
+%======================================================================
+% Nithin Jambula - Resume: Software Engineer (AI systems, 2 pages)
+% Compile with pdfLaTeX on Overleaf. Single column, ATS friendly.
+%======================================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[a4paper,left=0.6in,right=0.6in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1   % lets ATS software read the PDF text correctly
+
+\definecolor{accent}{RGB}{31,78,163}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent,
+  pdftitle={Nithin Jambula - Software Engineer}, pdfauthor={Nithin Jambula},
+  pdfkeywords={Software Engineer, LangGraph, LangChain, RAG, Multi-Agent Systems, LLM, FastAPI, System Design, Python, Docker}}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\raggedright
+
+\titleformat{\section}{\color{accent}\large\bfseries}{}{0em}{}[{\color{accent}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\setlist[itemize]{leftmargin=1.3em, itemsep=1pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+
+% \job{Organisation}{Dates}{Role}{Location}
+\newcommand{\job}[4]{\textbf{#1}\hfill #2\\\textit{#3}\hfill\textit{#4}\par\vspace{-2pt}}
+% \project{Name}{Dates}{Tools and links}
+\newcommand{\project}[3]{\textbf{#1}\hfill #2\\{\small #3}\par\vspace{-2pt}}
+\newcommand{\gap}{\vspace{5pt}}
+
+\begin{document}
+
+%----------------------------- HEADER ---------------------------------
+\begin{center}
+  {\color{accent}\Huge\textbf{Nithin Jambula}}\\[3pt]
+  {\large Software Engineer}\\[4pt]
+  \small
+  +91 93476 32259 \,$|$\,
+  \href{mailto:nithinjambula89@gmail.com}{nithinjambula89@gmail.com} \,$|$\,
+  \href{https://linkedin.com/in/nithin-jambula}{linkedin.com/in/nithin-jambula} \,$|$\,
+  \href{https://github.com/nithin434}{github.com/nithin434} \,$|$\,
+  \href{https://nithin434.github.io}{nithin434.github.io}
+\end{center}
+
+%----------------------------- SUMMARY --------------------------------
+\section{Summary}
+I'm a software engineer who enjoys building AI systems that search, reason and get real tasks done, along with the services that keep them fast and reliable.
+I like thinking about system design: how data moves, how the parts talk to each other, and how things recover when something fails.
+I enjoy turning messy problems into clean, well-structured software that other people can build on.
+
+%---------------------------- EXPERIENCE ------------------------------
+\section{Experience}
+
+\job{Ananta Technologies}{Dec 2025 -- Present}{Software Engineer -- Robotics \& Autonomy}{India}
+\begin{itemize}
+  \item Rebuilt the communication layer for older CNC machines and H2D printers that ran closed software, and connected them to the in-house automation pipeline, removing manual operator steps on the print floor.
+  \item Designed decision logic (behavior trees) that turns high-level plans into reliable step-by-step actions, with retries and fallbacks so the system recovers from errors instead of stopping.
+  \item Built and expanded an automated simulation test suite to 50+ scenarios, cutting validation time by 35\%.
+  \item Main maintainer of a production module used across multiple pilot programs; helped take 2 systems from testing to production and fixed issues found after launch.
+\end{itemize}
+\gap
+
+\job{AIR Centre, VIT-AP University}{Jun 2024 -- Nov 2025}{Student Research Engineer -- Applied AI \& Security}{Amaravati, India}
+\begin{itemize}
+  \item Built a framework that pairs LLM agents with rule-based reasoning to find security holes in web APIs automatically.
+  \item Created an agent that reads live API details, writes attack tests (SQL injection, XSS, broken access control) and improves them after each failed attempt.
+  \item Split the testing pipeline into independent stages (input checks, fuzzing, auth checks, data exposure) so each can scale and be updated on its own across multi-service APIs.
+  \item Found 34\% more vulnerabilities than standard scanners and cut manual testing effort by 70\%; published at IEEE AIRC 2026.
+\end{itemize}
+\gap
+
+\job{Sripto}{Dec 2023 -- May 2024}{Machine Learning Engineer}{Amaravati, India}
+\begin{itemize}
+  \item Built a document question-answering system (RAG) that answers questions from private company files accurately and in real time.
+  \item Shipped AI tools including PDF chatbots, a product search matcher and a plain-English-to-SQL query engine that lets non-technical staff query data.
+  \item Handled deployment and scaling of the ML services and their integration with the web frontend.
+\end{itemize}
+
+%----------------------------- PROJECTS -------------------------------
+\section{Projects}
+
+\project{PatchPilot: Multi-Agent Code Review System}{Oct 2025}{Python, LangGraph, LangChain, ChromaDB, Gemini, Groq, Hugging Face, GitHub API \,$|$\, \href{https://github.com/nithin434/code_review}{GitHub}}
+\begin{itemize}
+  \item Built a code review system where separate AI agents check every GitHub pull request for security, code quality and logic issues, then a decision agent approves or blocks it based on risk.
+  \item Designed the flow as a LangGraph state graph with conditional routing, so each pull request only goes through the checks it needs and the shared state is kept across steps.
+  \item Added long-term memory with a ChromaDB vector store so reviews learn from past issues and each developer's history.
+  \item Generates patch suggestions for common issues and can switch between Gemini, Groq and Hugging Face models without code changes.
+\end{itemize}
+\gap
+
+\project{Context-Preserving RAG System for Enterprise Documents}{Apr 2026}{Python, FastAPI, Gemini, Embeddings, BM25, SQLite \,$|$\, \href{https://github.com/nithin434/Context-Preserving}{GitHub}}
+\begin{itemize}
+  \item Built a document question-answering system that gives source-backed answers from PDF, DOCX and text files.
+  \item Combined meaning-based (vector) search with keyword (BM25) search, and added a query classifier that routes each question to the best search strategy.
+  \item Used overlapping chunks to keep context across page breaks, and logged which passages were used for every answer so results can be traced and checked.
+  \item Organised it in three layers (ingestion, retrieval, generation) and added a knowledge base manager and usage analytics dashboard.
+\end{itemize}
+\gap
+
+\project{16fps: Multi-Agent Video Generation Platform}{Oct 2025 -- Present}{Python, LangChain, Stable Video Diffusion, AnimateDiff, GCP}
+\begin{itemize}
+  \item Built a team of AI agents that turns a text prompt into a consistent video over a minute long.
+  \item Agents plan scenes, remember characters, use tools and review their own output to fix mistakes, keeping the story and characters consistent at 16 FPS.
+  \item Designed the platform to render multiple videos in parallel with style transfer and audio sync, running on zero-downtime cloud infrastructure.
+  \item Sold commercial rights and operational access to a media production company.
+\end{itemize}
+\gap
+
+\project{MatriAI: Semantic Profile Matching Service}{Dec 2025}{Python, FastAPI, LangChain, ChromaDB, MongoDB, Docker \,$|$\, \href{https://github.com/nithin434/matriAI}{GitHub}}
+\begin{itemize}
+  \item Built a matching service that finds compatible profiles from a plain-English description, combining vector search with filters for age, location and preferences.
+  \item Kept profile data in MongoDB and embeddings in ChromaDB, with batch indexing built to handle up to 300k profiles.
+  \item Exposed it as a FastAPI service with health checks and packaged the whole stack with Docker Compose for one-command setup.
+\end{itemize}
+\gap
+
+\project{AI Sales Agent Platform}{2026}{Python, FastAPI, Node.js, Playwright, LLM \,$|$\, \href{https://github.com/nithin434/sales_agent}{GitHub}}
+\begin{itemize}
+  \item Built a FastAPI service with REST endpoints to start, stop and monitor WhatsApp and LinkedIn reply bots for each user session.
+  \item Added an AI lead-finding pipeline that searches LinkedIn, Google and Twitter, removes duplicates, and scores each lead from 0 to 100 on job title, urgency and budget signals.
+  \item Generates a personalised outreach plan for every high-value lead and tracks each job and lead status through the API.
+\end{itemize}
+\gap
+
+\project{AI Voice Calling Agent}{2024 -- 2025}{Python, Asterisk, ViciDial, Speech-to-Text, LLM, Text-to-Speech}
+\begin{itemize}
+  \item Extended an Asterisk and ViciDial calling setup into a voice agent that listens, understands and replies to callers in real time.
+  \item Connected speech-to-text, LLM replies and text-to-speech, plus call routing and logging; deployed it for live product outreach and demoed it end to end.
+\end{itemize}
+\gap
+
+\project{More Projects}{}{\href{https://github.com/nithin434}{github.com/nithin434}}
+\begin{itemize}
+  \item \textbf{WOAT:} WhatsApp assistant that learns your tone from past chats and replies in your style, with fallback replies when the AI service is down (\href{https://github.com/nithin434/woat}{GitHub}).
+  \item \textbf{apk2abb:} open-source Python package on PyPI that converts Android APKs to Play Store bundles and handles signing (\href{https://github.com/nithin434/apk2abb}{GitHub}).
+\end{itemize}
+
+%------------------------------ SKILLS --------------------------------
+\section{Skills}
+\begin{itemize}
+  \item \textbf{Languages:} Python, JavaScript, Java, SQL, C++, Bash
+  \item \textbf{AI \& LLM Systems:} LangGraph, LangChain, RAG, Hybrid Search (Vector + BM25), ChromaDB, Embeddings, Multi-Agent Systems, Tool Use, Agent Memory, Prompt Engineering, Gemini, Groq, Hugging Face, Voice AI
+  \item \textbf{Services \& Data:} FastAPI, Flask, Node.js, REST APIs, MongoDB, SQLite, SQL, Playwright
+  \item \textbf{Infrastructure:} Docker, Docker Compose, GCP, Linux, Git, CI/CD, GitHub Webhooks, MLflow
+  \item \textbf{System Design:} Service-based architecture, state graphs and state machines, parallel processing, retries and fallbacks, zero-downtime deployment, API security (OWASP)
+\end{itemize}
+
+%------------------- PUBLICATIONS, PATENT, AWARDS ---------------------
+\section{Publications, Patent \& Awards}
+\begin{itemize}
+  \item \textbf{N. Jambula}, S. C. Sethuraman, et al., ``A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing,'' \textit{7th International Conference on Artificial Intelligence, Robotics, and Control (AIRC)}, IEEE, 2026.
+        DOI: \href{https://doi.org/10.1109/AIRC69745.2026.11631384}{10.1109/AIRC69745.2026.11631384}
+  \item \textbf{N. Jambula}, N. K. Reddy, K. Pandey, M. Mahesh, ``Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency,'' \textit{20th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)}, IEEE, 2025.
+        DOI: \href{https://doi.org/10.1109/ISAI-NLP66160.2025.11320726}{10.1109/ISAI-NLP66160.2025.11320726}
+  \item \textbf{Patent Pending:} EchoSight, an AI-powered wearable navigation system for the visually impaired.
+  \item \textbf{Awardee}, Vikas 2024 Innovation Challenge (EchoSight) \,$|$\, \textbf{Winner}, Engineering Clinics 2024 (real-time threat detection framework)
+\end{itemize}
+
+%----------------------- CERTIFICATIONS \& LEADERSHIP ------------------
+\section{Certifications \& Leadership}
+\begin{itemize}
+  \item \href{https://drive.google.com/file/d/1bYBUAIvUOMfzw3lgQpruA0vFzStBH2Kx/view?usp=sharing}{Machine Learning Specialization} -- Stanford \& DeepLearning.AI \,$|$\, IBM: \href{https://courses.cognitiveclass.ai/certificates/b24fd91a07c14d8ba2b6dbf0d6a6c6c5}{Deep Learning Fundamentals}, \href{https://www.credly.com/badges/91a4bb99-9a17-4c7c-b000-3c7e54c148eb/print}{Machine Learning with Python}
+  \item \textbf{President}, \href{https://acsvitap.in/}{ACS International Student Chapter}, VIT-AP \hfill Aug 2023 -- Present
+\end{itemize}
+
+%---------------------------- EDUCATION -------------------------------
+\section{Education}
+\textbf{VIT-AP University}, Amaravati \hfill 2023 -- 2027\\
+B.Tech in Computer Science and Engineering \hfill CGPA: 8.0 / 10
+
+\end{document}

@@ -1,24 +1,31 @@
 # Nithin Jambula
 
-> Robotics software engineer and agentic AI systems builder, who also works on the architecture and infrastructure underneath both. Based in Amaravati, India. Open to robotics software, AI agent/LLM systems, AI architecture and ML infrastructure roles.
+> Software engineer working on robotics and AI systems. Builds robot behavior, perception and simulation testing software, multi-agent LLM systems and RAG, with a focus on clean system design. Based in Amaravati, India. Open to software engineering roles in robotics and AI systems.
 
 - Email: nithinjambula89@gmail.com
 - GitHub: https://github.com/nithin434
 - LinkedIn: https://linkedin.com/in/nithin-jambula
 - CV (PDF): https://nithin434.github.io/public/CV.pdf
 
-## Current and recent roles
-- Robotics Software Intern, Ananta Technologies (Dec 2024 – present): MuJoCo/Webots simulation testing for a US client, ~40% faster build tests, two robots deployed.
-- Student Researcher, AIR Centre, VIT-AP University (Jun 2024 – Nov 2025): neuro-symbolic LLM-driven API vulnerability detection (+34% vs SAST/DAST, −70% manual testing).
-- Team Lead, Vulcan self-driving campus EV (Jan 2023 – present): ROS, DeepLabV3+, CARLA + SAC + DAgger, NVIDIA Jetson.
-- Machine Learning Engineer, Sripto (Dec 2023 – May 2024): RAG, PDF chatbots, NL-to-SQL.
+## Experience
+- Software Engineer, Robotics & Autonomy, Ananta Technologies (Dec 2025 – present): AprilTag-guided robot positioning, behavior trees with retries and fallbacks, a 50+ scenario MuJoCo/Webots test suite (35% faster validation), 2 robots taken from simulation to production, and rebuilt control links for CNC machines and H2D printers.
+- Student Research Engineer, AIR Centre, VIT-AP University (Jun 2024 – Nov 2025): LLM agents with rule-based reasoning for API security testing (+34% vulnerabilities found, 70% less manual testing; IEEE AIRC 2026), and a real-time AI voice calling agent on Asterisk/ViciDial.
+- Software Lead, Vulcan self-driving campus EV (Jan 2023 – present): DeepLabV3+ segmentation (67%), lane following, CARLA + SAC + DAgger, NVIDIA Jetson; showcased at VLaunchpad 2025.
+- Machine Learning Engineer, Sripto (Dec 2023 – May 2024): RAG over private documents, PDF chatbots, NL-to-SQL.
 
 ## Projects
-- [16fps](https://nithin434.github.io/public/projects.html#16fps): multi-agent text-to-video (memory, tool use, reflection); commercial rights sold.
-- [EchoSight](https://nithin434.github.io/public/projects.html#echosight): assistive glasses, YOLOv8 at 45+ FPS on a Raspberry Pi; patent pending; Vikas 2024 awardee.
-- [WOAT](https://nithin434.github.io/public/projects.html#woat): context-aware conversational agent on Gemini.
-- [DeepShield](https://nithin434.github.io/public/projects.html#deepshield): deepfake detection, published at iSAI 2025.
-- [NeuroSecAPI](https://nithin434.github.io/public/projects.html#neurosecapi): neuro-symbolic API security.
+- [PatchPilot](https://nithin434.github.io/public/projects.html#patchpilot): multi-agent GitHub pull request review on LangGraph with ChromaDB memory.
+- [Context-Preserving RAG](https://nithin434.github.io/public/projects.html#rag): hybrid vector + BM25 search with query routing and traceable answers.
+- [16fps](https://nithin434.github.io/public/projects.html#16fps): multi-agent video generation; commercial rights sold.
+- [EchoSight](https://nithin434.github.io/public/projects.html#echosight): navigation glasses, YOLOv8 at 45+ FPS on a Raspberry Pi; patent pending; Vikas 2024 awardee.
+- [AprilTag Docking Rover](https://nithin434.github.io/public/projects.html#rover): ROS 2 rover with a docking mission state machine.
+- [MatriAI](https://nithin434.github.io/public/projects.html#matriai): semantic profile matching with FastAPI, LangChain, ChromaDB and MongoDB.
+- [AI Voice Calling Agent](https://nithin434.github.io/public/projects.html#voice-agent): real-time speech-to-text, LLM and text-to-speech calling agent.
+
+## Publications
+- N. Jambula, S. C. Sethuraman, et al. "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing." IEEE AIRC 2026. https://doi.org/10.1109/AIRC69745.2026.11631384
+- N. Jambula, N. K. Reddy, K. Pandey, M. Mahesh. "Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency." IEEE iSAI-NLP 2025. https://doi.org/10.1109/ISAI-NLP66160.2025.11320726
+- Patent pending: EchoSight, AI-powered wearable navigation system.
 
 ## Pages
 - [Home](https://nithin434.github.io/)

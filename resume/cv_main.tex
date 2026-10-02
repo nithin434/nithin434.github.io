@@ -1,0 +1,195 @@
+%======================================================================
+% Nithin Jambula - Main CV (website CV.pdf, general purpose, 2 pages)
+% Compile with pdfLaTeX on Overleaf. Single column, ATS friendly.
+%======================================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[a4paper,left=0.6in,right=0.6in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1   % lets ATS software read the PDF text correctly
+
+\definecolor{accent}{RGB}{31,78,163}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent,
+  pdftitle={Nithin Jambula - CV}, pdfauthor={Nithin Jambula},
+  pdfkeywords={Software Engineer, Robotics, ROS 2, MuJoCo, LangGraph, LangChain, RAG, System Design, Python}}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\raggedright
+
+\titleformat{\section}{\color{accent}\large\bfseries}{}{0em}{}[{\color{accent}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\setlist[itemize]{leftmargin=1.3em, itemsep=1pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+
+% \job{Organisation}{Dates}{Role}{Location}
+\newcommand{\job}[4]{\textbf{#1}\hfill #2\\\textit{#3}\hfill\textit{#4}\par\vspace{-2pt}}
+% \project{Name}{Dates}{Tools and links}
+\newcommand{\project}[3]{\textbf{#1}\hfill #2\\{\small #3}\par\vspace{-2pt}}
+\newcommand{\gap}{\vspace{5pt}}
+
+\begin{document}
+
+%----------------------------- HEADER ---------------------------------
+\begin{center}
+  {\color{accent}\Huge\textbf{Nithin Jambula}}\\[3pt]
+  {\large Software Engineer \,$|$\, Robotics \& AI Systems}\\[4pt]
+  \small
+  +91 93476 32259 \,$|$\,
+  \href{mailto:nithinjambula89@gmail.com}{nithinjambula89@gmail.com} \,$|$\,
+  \href{https://linkedin.com/in/nithin-jambula}{linkedin.com/in/nithin-jambula} \,$|$\,
+  \href{https://github.com/nithin434}{github.com/nithin434} \,$|$\,
+  \href{https://nithin434.github.io}{nithin434.github.io}
+\end{center}
+
+%----------------------------- SUMMARY --------------------------------
+\section{Summary}
+I'm a software engineer who enjoys writing the software that helps robots see, move and make decisions, and building AI systems that can search, reason and get real work done.
+I like understanding how the parts of a system fit together, from the first design sketch to something that runs reliably every day.
+Most of my work sits where robotics, AI and well-designed software meet, and I'm happiest turning a rough idea into something people can actually use.
+
+%---------------------------- EXPERIENCE ------------------------------
+\section{Experience}
+
+\job{Ananta Technologies}{Dec 2025 -- Present}{Software Engineer -- Robotics \& Autonomy}{India}
+\begin{itemize}
+  \item Own the camera-guided robot positioning module (AprilTag pose estimation and motion sequencing) as its main maintainer, keeping it reliable across multiple autonomous pilot programs.
+  \item Rebuilt the communication layer for older CNC machines and H2D printers that ran closed software, and connected them to the in-house automation pipeline, removing manual operator steps on the print floor.
+  \item Designed behavior trees and decision logic that turn mission plans into clear, step-by-step robot actions, with retries and fallbacks so robots recover from errors instead of stopping.
+  \item Built and expanded a MuJoCo and Webots simulation test suite to 50+ scenarios covering motion, navigation and failure recovery, cutting validation time by 35\%.
+  \item Took 2 robots from simulation to the production floor, handling on-robot tuning, sim-to-real fixes and post-launch debugging.
+\end{itemize}
+\gap
+
+\job{AIR Centre, VIT-AP University}{Jun 2024 -- Nov 2025}{Student Research Engineer -- Applied AI \& Security}{Amaravati, India}
+\begin{itemize}
+  \item Built an AI framework that pairs LLM agents with rule-based reasoning to find security holes in web APIs automatically.
+  \item Created an agent that reads live API details, writes attack tests (SQL injection, XSS, broken access control) and improves them after each failed attempt.
+  \item Found 34\% more vulnerabilities than standard scanners and cut manual testing effort by 70\%; published at IEEE AIRC 2026.
+\end{itemize}
+\gap
+
+\job{Vulcan: Self-Driving Campus EV (VIT-AP Initiative)}{Jan 2023 -- Present}{Software Lead -- Perception \& Navigation}{Amaravati, India}
+\begin{itemize}
+  \item Lead the student team building perception, lane following and driving decisions for a self-driving electric campus vehicle.
+  \item Trained a road-scene segmentation model (DeepLabV3+ on Mapillary) to 67\% accuracy within the limited compute of an NVIDIA Jetson.
+  \item Built lane-following and turn-handling control, and trained driving policies in the CARLA simulator with reinforcement learning (SAC) and imitation learning (DAgger).
+  \item Showcased the working vehicle live at VLaunchpad 2025.
+\end{itemize}
+\gap
+
+\job{Sripto}{Dec 2023 -- May 2024}{Machine Learning Engineer}{Amaravati, India}
+\begin{itemize}
+  \item Built a document question-answering system (RAG) that answers questions from private company files accurately and in real time.
+  \item Shipped AI tools including PDF chatbots, a product search matcher and a plain-English-to-SQL query engine.
+\end{itemize}
+
+%----------------------------- PROJECTS -------------------------------
+\section{Projects}
+
+\project{PatchPilot: Multi-Agent Code Review System}{Oct 2025}{Python, LangGraph, LangChain, ChromaDB, Gemini, Groq, GitHub API \,$|$\, \href{https://github.com/nithin434/code_review}{GitHub}}
+\begin{itemize}
+  \item Built a code review system where separate AI agents check every GitHub pull request for security, code quality and logic issues, then a decision agent approves or blocks it based on risk.
+  \item Designed the flow as a LangGraph state graph with conditional routing, so each pull request only goes through the checks it needs.
+  \item Added long-term memory with a ChromaDB vector store so reviews learn from past issues, plus automatic patch suggestions and support for multiple LLM providers.
+\end{itemize}
+\gap
+
+\project{Context-Preserving RAG System for Enterprise Documents}{Apr 2026}{Python, FastAPI, Gemini, Embeddings, BM25, SQLite \,$|$\, \href{https://github.com/nithin434/Context-Preserving}{GitHub}}
+\begin{itemize}
+  \item Built a document question-answering system that gives source-backed answers from PDF, DOCX and text files.
+  \item Combined meaning-based (vector) search with keyword (BM25) search, and added a query classifier that routes each question to the best search strategy.
+  \item Used overlapping chunks to keep context across page breaks, and logged which passages were used for every answer so results can be traced and checked.
+\end{itemize}
+\gap
+
+\project{16fps: Multi-Agent Video Generation Platform}{Oct 2025 -- Present}{Python, LangChain, Stable Video Diffusion, AnimateDiff, GCP}
+\begin{itemize}
+  \item Built a team of AI agents that turns a text prompt into a consistent video over a minute long.
+  \item Agents plan scenes, remember characters, use tools and review their own output to fix mistakes, keeping the story and characters consistent at 16 FPS.
+  \item Renders videos in parallel on zero-downtime cloud infrastructure; sold commercial rights and access to a media production company.
+\end{itemize}
+\gap
+
+\project{EchoSight: Navigation Glasses for the Visually Impaired (Patent Pending)}{Dec 2024 -- Present}{YOLOv8, Raspberry Pi, OpenCV, Roboflow, GCP, Text-to-Speech \,$|$\, \href{https://drive.google.com/file/d/1r_dGlaLp-_ueKEicPEHzzcnC8IBGrJQT/view?usp=sharing}{Demo}}
+\begin{itemize}
+  \item Built smart glasses that detect obstacles and give spoken directions through Bluetooth earbuds.
+  \item Fine-tuned YOLOv8 on 50+ custom object classes and optimised it to run at 45+ FPS on a Raspberry Pi.
+  \item Awardee at the Vikas 2024 Innovation Challenge, showcased at inter-college innovation competitions, and filed for a patent.
+\end{itemize}
+\gap
+
+\project{AprilTag Docking Rover (ROS 2)}{Dec 2025}{Python, ROS 2, AprilTag, OpenCV, rosbag \,$|$\, \href{https://github.com/nithin434/apriltag_rover}{GitHub}}
+\begin{itemize}
+  \item Built a ROS 2 rover that finds and docks with its station on its own, using real-time AprilTag detection and pose estimation.
+  \item Wrote a multi-stage mission controller (state machine) for approach, alignment and docking, with simulation worlds and rosbag-to-video tools for reviewing each run.
+\end{itemize}
+\gap
+
+\project{MatriAI: Semantic Profile Matching Service}{Dec 2025}{Python, FastAPI, LangChain, ChromaDB, MongoDB, Docker \,$|$\, \href{https://github.com/nithin434/matriAI}{GitHub}}
+\begin{itemize}
+  \item Built a matching service that finds compatible profiles from a plain-English description, combining vector search with filters for age, location and preferences.
+  \item Stored profiles in MongoDB and embeddings in ChromaDB, with batch indexing built to handle up to 300k profiles, and packaged everything with Docker Compose.
+\end{itemize}
+\gap
+
+\project{AI Voice Calling Agent}{2024 -- 2025}{Python, Asterisk, ViciDial, Speech-to-Text, LLM, Text-to-Speech}
+\begin{itemize}
+  \item Extended an Asterisk and ViciDial calling setup into a voice agent that listens, understands and replies to callers in real time, with call routing and logging for review.
+  \item Deployed it for live product outreach across different customer groups and demoed it end to end.
+\end{itemize}
+\gap
+
+\project{More Projects}{}{\href{https://github.com/nithin434}{github.com/nithin434}}
+\begin{itemize}
+  \item \textbf{AI Sales Agent Platform:} FastAPI service that runs WhatsApp and LinkedIn reply bots and scores leads from 0 to 100 (\href{https://github.com/nithin434/sales_agent}{GitHub}).
+  \item \textbf{WOAT:} WhatsApp assistant that learns your tone from past chats and replies in your style, built on Gemini (\href{https://github.com/nithin434/woat}{GitHub}).
+  \item \textbf{DeepShield:} deepfake video detector, +22\% accuracy and 18\% fewer false positives; published at IEEE iSAI-NLP 2025.
+\end{itemize}
+
+%------------------- PUBLICATIONS, PATENT, AWARDS ---------------------
+\section{Publications, Patent \& Awards}
+\begin{itemize}
+  \item \textbf{N. Jambula}, S. C. Sethuraman, et al., ``A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing,'' \textit{7th International Conference on Artificial Intelligence, Robotics, and Control (AIRC)}, IEEE, 2026.
+        DOI: \href{https://doi.org/10.1109/AIRC69745.2026.11631384}{10.1109/AIRC69745.2026.11631384}
+  \item \textbf{N. Jambula}, N. K. Reddy, K. Pandey, M. Mahesh, ``Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency,'' \textit{20th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)}, IEEE, 2025.
+        DOI: \href{https://doi.org/10.1109/ISAI-NLP66160.2025.11320726}{10.1109/ISAI-NLP66160.2025.11320726}
+  \item \textbf{Patent Pending:} EchoSight, an AI-powered wearable navigation system for the visually impaired.
+  \item \textbf{Awardee}, Vikas 2024 Innovation Challenge (EchoSight) \,$|$\, \textbf{Winner}, Engineering Clinics 2024 (real-time threat detection framework)
+\end{itemize}
+
+%------------------------------ SKILLS --------------------------------
+\section{Skills}
+\begin{itemize}
+  \item \textbf{Languages:} Python, C++, Java, JavaScript, SQL, Bash
+  \item \textbf{Robotics:} ROS 2, MuJoCo, Webots, CARLA, Behavior Trees, AprilTag, Visual Servoing, Sensor Fusion, Path Planning, Sim-to-Real, NVIDIA Jetson, Raspberry Pi
+  \item \textbf{AI \& LLM Systems:} LangGraph, LangChain, RAG, Hybrid Search (Vector + BM25), ChromaDB, Multi-Agent Systems, Tool Use, Agent Memory, Prompt Engineering, Hugging Face, Gemini, Voice AI
+  \item \textbf{Services \& Infrastructure:} FastAPI, Flask, Node.js, REST APIs, MongoDB, SQLite, Docker, Docker Compose, GCP, Linux, Git, CI/CD
+  \item \textbf{Computer Vision \& ML:} PyTorch, TensorFlow, OpenCV, YOLOv8, DeepLabV3+, ONNX, Reinforcement Learning (SAC, DAgger)
+\end{itemize}
+
+%------------------------- CERTIFICATIONS -----------------------------
+\section{Certifications}
+\begin{itemize}
+  \item \href{https://drive.google.com/file/d/1bYBUAIvUOMfzw3lgQpruA0vFzStBH2Kx/view?usp=sharing}{Machine Learning Specialization} -- Stanford \& DeepLearning.AI \,$|$\, \href{https://www.cert.devtown.in/verify/Z1GAbEE}{Object Detection Bootcamp} -- Google
+  \item IBM: \href{https://courses.cognitiveclass.ai/certificates/b24fd91a07c14d8ba2b6dbf0d6a6c6c5}{Deep Learning Fundamentals}, \href{https://www.credly.com/badges/91a4bb99-9a17-4c7c-b000-3c7e54c148eb/print}{Machine Learning with Python}, \href{https://www.credly.com/badges/1d70a2bb-7afa-4ef8-9e2f-a945321c0e51/print}{Machine Learning Specialist -- Advanced}
+\end{itemize}
+
+%--------------------------- LEADERSHIP -------------------------------
+\section{Leadership}
+\begin{itemize}
+  \item \textbf{President}, \href{https://acsvitap.in/}{ACS International Student Chapter}, VIT-AP \hfill Aug 2023 -- Present
+  \item \textbf{Marketing Member}, \href{https://sedsvitap.in/index.html}{SEDS VIT-AP} \hfill Jan 2023 -- Present
+\end{itemize}
+
+%---------------------------- EDUCATION -------------------------------
+\section{Education}
+\textbf{VIT-AP University}, Amaravati \hfill 2023 -- 2027\\
+B.Tech in Computer Science and Engineering \hfill CGPA: 8.0 / 10
+
+\end{document}

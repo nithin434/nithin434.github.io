@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Projects — Nithin Jambula (robotics, AI agents, infrastructure)</title>
-<meta name="description" content="Projects by Nithin Jambula: Vulcan self-driving EV (ROS, DeepLabV3+, CARLA, SAC, DAgger, Jetson), 16fps multi-agent video generation, EchoSight assistive glasses (YOLOv8), WOAT conversational agent, DeepShield deepfake detection, NeuroSecAPI neuro-symbolic API security.">
-<meta name="keywords" content="Nithin Jambula projects, Vulcan self-driving EV, VIT-AP autonomous vehicle, 16fps AI video agent, EchoSight, WOAT WhatsApp agent, DeepShield deepfake detection, NeuroSecAPI, ScreenAutomate, ROS, CARLA, MuJoCo, YOLOv8, LangChain, multi-agent, robotics portfolio, AI agent portfolio">
+<title>Projects — Nithin Jambula (robotics, AI agents, system design)</title>
+<meta name="description" content="Projects by Nithin Jambula: PatchPilot multi-agent code review (LangGraph), a context-preserving RAG system, 16fps multi-agent video generation, Vulcan self-driving EV, EchoSight assistive glasses, a ROS 2 AprilTag docking rover, MatriAI semantic matching, an AI voice calling agent and more.">
+<meta name="keywords" content="Nithin Jambula projects, PatchPilot, LangGraph multi-agent code review, context-preserving RAG, hybrid search BM25, 16fps AI video agent, Vulcan self-driving EV, EchoSight, AprilTag docking rover ROS 2, MatriAI, ChromaDB, LangChain, AI voice agent, Asterisk, AI sales agent, WOAT, DeepShield, apk2abb, robotics portfolio, AI engineer portfolio">
 <meta name="author" content="Nithin Jambula">
 <link rel="canonical" href="https://nithin434.github.io/public/projects.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Projects — Nithin Jambula">
-<meta property="og:description" content="Self-driving EV, multi-agent video generation, assistive glasses, conversational agents, deepfake detection, neuro-symbolic security.">
+<meta property="og:description" content="Multi-agent code review, RAG systems, multi-agent video generation, a self-driving EV, assistive glasses, a docking rover and more.">
 <meta property="og:url" content="https://nithin434.github.io/public/projects.html">
 <meta property="og:image" content="https://nithin434.github.io/public/assets/img/avatar/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -18,6 +18,18 @@
 <link rel="apple-touch-icon" href="assets/img/avatar/avatar-180.png">
 <link rel="alternate" type="application/atom+xml" title="Nithin Jambula (Atom)" href="atom.xml">
 <link rel="alternate" type="application/rss+xml" title="Nithin Jambula (RSS)" href="rss.xml">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#000000">
+<meta property="og:site_name" content="Nithin Jambula">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="Projects — Nithin Jambula (robotics, AI agents, system design)">
+<meta name="twitter:description" content="Projects by Nithin Jambula: PatchPilot multi-agent code review (LangGraph), a context-preserving RAG system, 16fps multi-agent video generation, Vulcan self-driving EV, EchoSight assistive glasses, a ROS 2 AprilTag docking rover, MatriAI semantic matching, an AI voice calling agent and more.">
+<meta name="twitter:image" content="https://nithin434.github.io/public/assets/img/avatar/og-image.jpg">
+<link rel="manifest" href="manifest.json">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="../sitemap.xml">
+<link rel="author" href="humans.txt">
+<link rel="me" href="https://github.com/nithin434">
+<link rel="me" href="https://linkedin.com/in/nithin-jambula">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="assets/css/style.css">
 <script type="application/ld+json">
@@ -32,13 +44,21 @@
     {"@type": "ListItem", "position": 2, "name": "Projects", "item": "https://nithin434.github.io/public/projects.html"}
   ]},
   "mainEntity": {"@type": "ItemList", "itemListElement": [
-    {"@type": "ListItem", "position": 1, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#vulcan", "name": "Vulcan: Self-Driving Campus EV", "keywords": "ROS, DeepLabV3+, CARLA, SAC, DAgger, NVIDIA Jetson, LiDAR, sensor fusion, path planning", "image": "https://nithin434.github.io/public/assets/img/photos/car.jpg"}},
-    {"@type": "ListItem", "position": 2, "item": {"@type": "SoftwareApplication", "@id": "https://nithin434.github.io/public/projects.html#16fps", "name": "16fps: Multi-Video Generation Agent", "applicationCategory": "MultimediaApplication", "keywords": "agentic AI, multi-agent orchestration, LangChain, Stable Video Diffusion, AnimateDiff, reflection, tool use"}},
-    {"@type": "ListItem", "position": 3, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#echosight", "name": "EchoSight: Assistive Navigation Glasses", "keywords": "YOLOv8, Raspberry Pi, edge AI, monocular depth, accessibility, patent pending", "image": "https://nithin434.github.io/public/assets/img/photos/echo.jpg"}},
-    {"@type": "ListItem", "position": 4, "item": {"@type": "SoftwareApplication", "@id": "https://nithin434.github.io/public/projects.html#woat", "name": "WOAT: Context-Aware Conversational Agent", "applicationCategory": "CommunicationApplication", "keywords": "Gemini API, agentic reasoning, WhatsApp, Node.js, adversarial testing"}},
-    {"@type": "ListItem", "position": 5, "item": {"@type": "ScholarlyArticle", "@id": "https://nithin434.github.io/public/projects.html#deepshield", "name": "DeepShield: Face-Swap Deepfake Detection", "keywords": "CNN, GAN, deepfake, adversarial robustness", "publisher": "iSAI 2025"}},
-    {"@type": "ListItem", "position": 6, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#neurosecapi", "name": "NeuroSecAPI: Neuro-Symbolic API Vulnerability Detection", "keywords": "neuro-symbolic AI, LLM, fuzzing, OWASP, API security, Flask"}},
-    {"@type": "ListItem", "position": 7, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#screenautomate", "name": "ScreenAutomate: Gesture and Voice Control", "keywords": "MediaPipe, OpenCV, speech recognition, Bluetooth, HCI"}}
+    {"@type": "ListItem", "position": 1, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#patchpilot", "name": "PatchPilot: Multi-Agent Code Review System", "codeRepository": "https://github.com/nithin434/code_review", "programmingLanguage": "Python", "keywords": "LangGraph, LangChain, ChromaDB, multi-agent, code review, GitHub"}},
+    {"@type": "ListItem", "position": 2, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#rag", "name": "Context-Preserving RAG System for Enterprise Documents", "codeRepository": "https://github.com/nithin434/Context-Preserving", "programmingLanguage": "Python", "keywords": "RAG, hybrid search, BM25, embeddings, FastAPI, Gemini"}},
+    {"@type": "ListItem", "position": 3, "item": {"@type": "SoftwareApplication", "@id": "https://nithin434.github.io/public/projects.html#16fps", "name": "16fps: Multi-Agent Video Generation Platform", "applicationCategory": "MultimediaApplication", "keywords": "multi-agent, LangChain, Stable Video Diffusion, AnimateDiff"}},
+    {"@type": "ListItem", "position": 4, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#vulcan", "name": "Vulcan: Self-Driving Campus EV", "keywords": "ROS, DeepLabV3+, CARLA, SAC, DAgger, NVIDIA Jetson", "image": "https://nithin434.github.io/public/assets/img/photos/car.jpg"}},
+    {"@type": "ListItem", "position": 5, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#echosight", "name": "EchoSight: Navigation Glasses for the Visually Impaired", "keywords": "YOLOv8, Raspberry Pi, edge AI, accessibility, patent pending", "image": "https://nithin434.github.io/public/assets/img/photos/echo.jpg"}},
+    {"@type": "ListItem", "position": 6, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#rover", "name": "AprilTag Docking Rover (ROS 2)", "codeRepository": "https://github.com/nithin434/apriltag_rover", "programmingLanguage": "Python", "keywords": "ROS 2, AprilTag, pose estimation, state machine, docking"}},
+    {"@type": "ListItem", "position": 7, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#matriai", "name": "MatriAI: Semantic Profile Matching Service", "codeRepository": "https://github.com/nithin434/matriAI", "programmingLanguage": "Python", "keywords": "FastAPI, LangChain, ChromaDB, MongoDB, Docker"}},
+    {"@type": "ListItem", "position": 8, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#voice-agent", "name": "AI Voice Calling Agent", "keywords": "Asterisk, ViciDial, speech-to-text, LLM, text-to-speech"}},
+    {"@type": "ListItem", "position": 9, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#neurosecapi", "name": "Neuro-Symbolic API Security Testing", "keywords": "LLM agents, neuro-symbolic AI, fuzzing, OWASP, API security"}},
+    {"@type": "ListItem", "position": 10, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#sales-agent", "name": "AI Sales Agent Platform", "codeRepository": "https://github.com/nithin434/sales_agent", "keywords": "FastAPI, Node.js, Playwright, lead scoring"}},
+    {"@type": "ListItem", "position": 11, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#woat", "name": "WOAT: Context-Aware WhatsApp Assistant", "codeRepository": "https://github.com/nithin434/woat", "keywords": "Gemini API, WhatsApp, Node.js, Python"}},
+    {"@type": "ListItem", "position": 12, "item": {"@type": "CreativeWork", "@id": "https://nithin434.github.io/public/projects.html#deepshield", "name": "DeepShield: Deepfake Detection", "keywords": "CNN, GAN, deepfake detection, iSAI-NLP 2025"}},
+    {"@type": "ListItem", "position": 13, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#face-recognition", "name": "Face Recognition System", "codeRepository": "https://github.com/nithin434/face_recog_AP", "keywords": "OpenCV DNN, OpenFace, SVM"}},
+    {"@type": "ListItem", "position": 14, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#screenautomate", "name": "ScreenAutomate: Gesture and Voice Control", "codeRepository": "https://github.com/nithin434/Screen-Automate", "keywords": "MediaPipe, OpenCV, speech recognition"}},
+    {"@type": "ListItem", "position": 15, "item": {"@type": "SoftwareSourceCode", "@id": "https://nithin434.github.io/public/projects.html#apk2abb", "name": "apk2abb", "codeRepository": "https://github.com/nithin434/apk2abb", "keywords": "Python package, PyPI, Android, bundletool"}}
   ]}
 }
 </script>
@@ -48,105 +68,201 @@
 <div id="page">
 
 <div id="nav">
-  [ <a href="../"><i class="fa-solid fa-house" aria-hidden="true"></i> home</a> | <b><i class="fa-solid fa-robot" aria-hidden="true"></i> projects</b> | <a href="gallery.html"><i class="fa-solid fa-images" aria-hidden="true"></i> gallery</a> | <a href="cv.html"><i class="fa-solid fa-id-card" aria-hidden="true"></i> cv</a> | <a href="topics.html"><i class="fa-solid fa-tags" aria-hidden="true"></i> topics</a> | <a href="cite.html"><i class="fa-solid fa-quote-left" aria-hidden="true"></i> cite</a> | <a href="CV.pdf"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> cv.pdf</a> | <a href="atom.xml"><i class="fa-solid fa-rss" aria-hidden="true"></i> atom</a> ]
+  [ <a href="../"><i class="fa-solid fa-house" aria-hidden="true"></i> home</a> | <b><i class="fa-solid fa-robot" aria-hidden="true"></i> projects</b> | <a href="gallery.html"><i class="fa-solid fa-images" aria-hidden="true"></i> gallery</a> | <a href="cv.html"><i class="fa-solid fa-id-card" aria-hidden="true"></i> cv</a> | <a href="topics.html"><i class="fa-solid fa-tags" aria-hidden="true"></i> topics</a> | <a href="CV.pdf"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> cv.pdf</a> | <a href="atom.xml"><i class="fa-solid fa-rss" aria-hidden="true"></i> atom</a> ]
 </div>
 
 <h1>Projects<span class="cursor">_</span></h1>
-<p class="meta">Photos are greyscale until you hover over them. Tools link to their upstream projects.</p>
+<p class="meta">Photos are greyscale until you hover over them. Tools link to their upstream projects. Code is on <a href="https://github.com/nithin434">github.com/nithin434</a>.</p>
 
-<div class="proj" id="vulcan">
-  <img class="photo" src="assets/img/photos/car.jpg" width="800" height="576" loading="lazy" alt="Vulcan, the self-driving campus EV built by the VIT-AP team, a converted golf cart with sensors">
-  <h3><i class="fa-solid fa-robot fa-fw" aria-hidden="true"></i> Vulcan: Self-Driving Campus EV <small>(Jan 2023 – present · team lead)</small></h3>
+<h2><i class="fa-solid fa-diagram-project fa-fw" aria-hidden="true"></i> AI systems</h2>
+
+<div class="proj" id="patchpilot">
+  <h3>PatchPilot: Multi-Agent Code Review System <small>(Oct 2025 · <a href="https://github.com/nithin434/code_review">code</a>)</small></h3>
   <p>
-    A golf cart converted into an autonomous campus vehicle, a VIT-AP initiative. I lead perception and navigation software.
-    I trained DeepLabV3+ on Mapillary for road-scene segmentation (67% multi-class accuracy), wrote the lane-following and turn-handling logic,
-    and built an end-to-end driving pipeline in CARLA using Soft Actor-Critic, fine-tuned with DAgger.
-    It runs in real time on an NVIDIA Jetson, fusing camera, LiDAR and radar.
+    A code review system where separate AI agents check every GitHub pull request for security, code quality and logic issues.
+    A decision agent then approves or blocks the change based on its risk.
+    The flow is a LangGraph state graph with conditional routing, so each pull request only goes through the checks it needs.
+    Long-term memory in a ChromaDB vector store lets reviews learn from past issues. It also suggests patches for common problems
+    and can switch between Gemini, Groq and Hugging Face models.
   </p>
   <p class="tools">
-    <a href="https://www.ros.org/">ROS</a> · <a href="https://carla.org/">CARLA</a> · <a href="https://pytorch.org/">PyTorch</a> ·
-    <a href="https://arxiv.org/abs/1802.02611">DeepLabV3+</a> · <a href="https://arxiv.org/abs/1801.01290">SAC</a> ·
-    <a href="https://arxiv.org/abs/1011.0686">DAgger</a> · <a href="https://www.mapillary.com/dataset/vistas">Mapillary Vistas</a> ·
-    <a href="https://developer.nvidia.com/embedded/jetson-modules">NVIDIA Jetson</a>
+    <a href="https://www.langchain.com/langgraph">LangGraph</a> · <a href="https://www.langchain.com/">LangChain</a> ·
+    <a href="https://www.trychroma.com/">ChromaDB</a> · <a href="https://ai.google.dev/">Gemini</a> · <a href="https://groq.com/">Groq</a> ·
+    <a href="https://docs.github.com/en/rest">GitHub API</a>
+  </p>
+</div>
+
+<div class="proj" id="rag">
+  <h3>Context-Preserving RAG System for Enterprise Documents <small>(Apr 2026 · <a href="https://github.com/nithin434/Context-Preserving">code</a>)</small></h3>
+  <p>
+    A question-answering system that gives source-backed answers from PDF, DOCX and text files.
+    It combines meaning-based (vector) search with keyword (BM25) search, and a query classifier routes each question to the best search strategy.
+    Overlapping chunks keep context across page breaks, and every answer records which passages it used, so results can be traced and checked.
+    It's split into ingestion, retrieval and generation layers, with a knowledge base manager and a usage dashboard.
+  </p>
+  <p class="tools">
+    <a href="https://fastapi.tiangolo.com/">FastAPI</a> · <a href="https://ai.google.dev/">Gemini</a> ·
+    <a href="https://en.wikipedia.org/wiki/Okapi_BM25">BM25</a> · <a href="https://www.sqlite.org/">SQLite</a>
   </p>
 </div>
 
 <div class="proj" id="16fps">
-  <h3><i class="fa-solid fa-diagram-project fa-fw" aria-hidden="true"></i> 16fps: Multi-Video Generation Agent <small>(Oct 2025 – present · self-employed, SaaS)</small></h3>
+  <h3>16fps: Multi-Agent Video Generation Platform <small>(Oct 2025 – present)</small></h3>
   <p>
-    An agentic system that turns a text prompt into a consistent video of a minute or more.
-    Several agents plan over a long context and keep memory. They call tools and use reflection to catch and fix their own mistakes,
-    which keeps characters, scenes and story consistent across 60+ second clips at 16 FPS.
-    It renders several videos in parallel with style transfer and audio sync, and serves them from zero-downtime cloud infrastructure.
+    A team of AI agents that turns a text prompt into a consistent video over a minute long.
+    The agents plan scenes, remember characters, use tools and review their own output to fix mistakes, keeping the story consistent at 16 FPS.
+    Several videos render in parallel, with style transfer and audio sync, on zero-downtime cloud infrastructure.
     Commercial rights and operational access were sold to a media production company.
   </p>
   <p class="tools">
-    <a href="https://www.python.org/">Python</a> · <a href="https://www.langchain.com/">LangChain</a> ·
-    <a href="https://github.com/Stability-AI/generative-models">Stable Video Diffusion</a> ·
+    <a href="https://www.langchain.com/">LangChain</a> · <a href="https://github.com/Stability-AI/generative-models">Stable Video Diffusion</a> ·
     <a href="https://github.com/guoyww/AnimateDiff">AnimateDiff</a> · <a href="https://cloud.google.com/">GCP</a>
   </p>
 </div>
 
-<div class="proj" id="echosight">
-  <img class="photo" src="assets/img/photos/echo.jpg" width="800" height="360" loading="lazy" alt="EchoSight assistive navigation glasses prototype for visually impaired users">
-  <h3><i class="fa-solid fa-microchip fa-fw" aria-hidden="true"></i> EchoSight: Assistive Navigation Glasses <small>(Dec 2024 – present · patent pending)</small></h3>
+<div class="proj" id="matriai">
+  <h3>MatriAI: Semantic Profile Matching Service <small>(Dec 2025 · <a href="https://github.com/nithin434/matriAI">code</a>)</small></h3>
   <p>
-    Wearable glasses that help visually impaired people get around. They detect objects in real time and give spoken feedback through Bluetooth earbuds.
-    YOLOv8 is fine-tuned on 50+ custom classes and runs at 45+ FPS on a Raspberry Pi.
-    Monocular depth estimation gives direction and distance, and alerts adapt to the context and location.
-    Awardee at the Vikas 2024 Innovation Challenge.
+    A matching service that finds compatible profiles from a plain-English description,
+    combining vector search with filters for age, location and preferences.
+    Profiles live in MongoDB and embeddings in ChromaDB, with batch indexing built to handle up to 300k profiles.
+    It runs as a FastAPI service and the whole stack starts with one Docker Compose command.
   </p>
   <p class="tools">
-    <a href="https://docs.ultralytics.com/">YOLOv8</a> · <a href="https://roboflow.com/">Roboflow</a> ·
-    <a href="https://www.raspberrypi.com/">Raspberry Pi</a> · <a href="https://opencv.org/">OpenCV</a> ·
-    <a href="https://cloud.google.com/">GCP</a> · TTS
+    <a href="https://fastapi.tiangolo.com/">FastAPI</a> · <a href="https://www.langchain.com/">LangChain</a> ·
+    <a href="https://www.trychroma.com/">ChromaDB</a> · <a href="https://www.mongodb.com/">MongoDB</a> · <a href="https://www.docker.com/">Docker</a>
   </p>
+</div>
+
+<div class="proj" id="voice-agent">
+  <h3>AI Voice Calling Agent <small>(2024 – 2025 · AIR Centre)</small></h3>
+  <p>
+    Started from an automated calling setup on Asterisk and ViciDial and extended it into a voice agent that listens, understands and replies
+    to callers in real time. Speech-to-text, LLM replies and text-to-speech are connected, with call routing and logging so every call can be reviewed.
+    Deployed for live product outreach across different customer groups and demoed end to end.
+  </p>
+  <p class="tools"><a href="https://www.asterisk.org/">Asterisk</a> · <a href="https://www.vicidial.org/">ViciDial</a> · speech-to-text · LLM · text-to-speech</p>
+</div>
+
+<div class="proj" id="neurosecapi">
+  <h3>Neuro-Symbolic API Security Testing <small>(AIR Centre, 2024 – 2025 · <a href="https://doi.org/10.1109/AIRC69745.2026.11631384">paper</a>)</small></h3>
+  <p>
+    LLM agents paired with rule-based reasoning to find security holes in web APIs automatically.
+    An agent reads live API details, writes attack tests (SQL injection, XSS, broken access control) and improves them after each failed attempt.
+    It found 34% more vulnerabilities than standard scanners and cut manual testing effort by 70%. Published at IEEE AIRC 2026.
+  </p>
+  <p class="tools"><a href="https://owasp.org/www-project-api-security/">OWASP API Security</a> · <a href="https://en.wikipedia.org/wiki/Fuzzing">fuzzing</a> · <a href="https://en.wikipedia.org/wiki/Neuro-symbolic_AI">neuro-symbolic AI</a></p>
+</div>
+
+<div class="proj" id="sales-agent">
+  <h3>AI Sales Agent Platform <small>(2026 · <a href="https://github.com/nithin434/sales_agent">code</a>)</small></h3>
+  <p>
+    A FastAPI service with REST endpoints to start, stop and monitor WhatsApp and LinkedIn reply bots for each user.
+    Its lead-finding pipeline searches LinkedIn, Google and Twitter, removes duplicates, and scores each lead from 0 to 100,
+    then writes a personalised outreach plan for the best ones.
+  </p>
+  <p class="tools"><a href="https://fastapi.tiangolo.com/">FastAPI</a> · <a href="https://nodejs.org/">Node.js</a> · <a href="https://playwright.dev/">Playwright</a></p>
 </div>
 
 <div class="proj" id="woat">
-  <h3><i class="fa-solid fa-diagram-project fa-fw" aria-hidden="true"></i> WOAT: Context-Aware Conversational Agent <small>(Jul – Nov 2023)</small></h3>
+  <h3>WOAT: Context-Aware WhatsApp Assistant <small>(Jul – Nov 2023 · <a href="https://github.com/nithin434/woat">code</a>)</small></h3>
   <p>
-    An agent that reads past chats, infers each relationship and tone, and drafts WhatsApp replies in the user's own style.
-    The integration layer (Python + Node.js) handles context memory, contact-aware behaviour, QR login and fallback modes.
-    Separate modules cover tone adaptation, understanding the situation, priority ranking and adversarial safety testing.
+    An assistant that reads past chats to understand tone, relationship and context, then drafts replies in the user's own style.
+    The WhatsApp integration has chat memory, per-contact behavior, QR login and fallback replies when the AI service is down.
+  </p>
+  <p class="tools"><a href="https://ai.google.dev/">Gemini API</a> · <a href="https://nodejs.org/">Node.js</a> · <a href="https://www.python.org/">Python</a></p>
+</div>
+
+<h2><i class="fa-solid fa-robot fa-fw" aria-hidden="true"></i> Robotics &amp; vision</h2>
+
+<div class="proj" id="vulcan">
+  <img class="photo" src="assets/img/photos/car.jpg" width="800" height="576" loading="lazy" alt="Vulcan, the self-driving campus EV built by the VIT-AP team">
+  <h3>Vulcan: Self-Driving Campus EV <small>(Jan 2023 – present · software lead)</small></h3>
+  <p>
+    A self-driving electric campus vehicle and a VIT-AP initiative. I lead the student team building its perception, lane following and driving decisions.
+    I trained DeepLabV3+ on Mapillary to 67% road-scene segmentation accuracy within the compute of an NVIDIA Jetson,
+    built lane-following and turn-handling control, and trained driving policies in CARLA with SAC, refined with DAgger.
+    The working vehicle was showcased live at VLaunchpad 2025.
   </p>
   <p class="tools">
-    <a href="https://ai.google.dev/">Gemini API</a> · <a href="https://cloud.google.com/">GCP</a> ·
-    <a href="https://nodejs.org/">Node.js</a> · <a href="https://www.python.org/">Python</a>
+    <a href="https://www.ros.org/">ROS</a> · <a href="https://carla.org/">CARLA</a> · <a href="https://arxiv.org/abs/1802.02611">DeepLabV3+</a> ·
+    <a href="https://arxiv.org/abs/1801.01290">SAC</a> · <a href="https://arxiv.org/abs/1011.0686">DAgger</a> ·
+    <a href="https://developer.nvidia.com/embedded/jetson-modules">NVIDIA Jetson</a>
   </p>
 </div>
 
-<div class="proj" id="deepshield">
-  <h3><i class="fa-solid fa-file-lines fa-fw" aria-hidden="true"></i> DeepShield: Face-Swap Deepfake Detection <small>(Jul – Nov 2023 · iSAI 2025)</small></h3>
+<div class="proj" id="echosight">
+  <img class="photo" src="assets/img/photos/echo.jpg" width="800" height="360" loading="lazy" alt="EchoSight assistive navigation glasses prototype">
+  <h3>EchoSight: Navigation Glasses for the Visually Impaired <small>(Dec 2024 – present · patent pending · <a href="https://drive.google.com/file/d/1r_dGlaLp-_ueKEicPEHzzcnC8IBGrJQT/view?usp=sharing">demo</a>)</small></h3>
   <p>
-    A CNN deepfake detector: +22% classification accuracy and 18% fewer false positives.
-    A synthetic-video generator adds 40% more variety to the training data, and adversarial stress tests check how robust it is.
-    Published at the 20th International Conference, iSAI 2025. <a href="cite.html">cite →</a>
+    Smart glasses that detect obstacles and give spoken directions through Bluetooth earbuds.
+    YOLOv8 is fine-tuned on 50+ custom object classes and optimised to run at 45+ FPS on a Raspberry Pi,
+    with distance and direction estimation from a single camera and location-aware voice alerts.
+    Awardee at the Vikas 2024 Innovation Challenge, showcased at inter-college innovation competitions, and filed for a patent.
+  </p>
+  <p class="tools">
+    <a href="https://docs.ultralytics.com/">YOLOv8</a> · <a href="https://www.raspberrypi.com/">Raspberry Pi</a> ·
+    <a href="https://opencv.org/">OpenCV</a> · <a href="https://roboflow.com/">Roboflow</a> · <a href="https://cloud.google.com/">GCP</a>
+  </p>
+</div>
+
+<div class="proj" id="rover">
+  <h3>AprilTag Docking Rover (ROS 2) <small>(Dec 2025 · <a href="https://github.com/nithin434/apriltag_rover">code</a>)</small></h3>
+  <p>
+    A ROS 2 rover that finds and docks with its station on its own, using real-time AprilTag detection and pose estimation.
+    A multi-stage mission controller (state machine) handles approach, alignment and docking.
+    Simulation worlds, rosbag recording and run-to-video tools make missions easy to review and debug.
+  </p>
+  <p class="tools"><a href="https://docs.ros.org/">ROS 2</a> · <a href="https://april.eecs.umich.edu/software/apriltag">AprilTag</a> · <a href="https://opencv.org/">OpenCV</a> · rosbag</p>
+</div>
+
+<div class="proj" id="deepshield">
+  <h3>DeepShield: Deepfake Detection <small>(Jul – Nov 2023 · <a href="https://doi.org/10.1109/ISAI-NLP66160.2025.11320726">paper</a>)</small></h3>
+  <p>
+    A CNN video model that detects face-swap deepfakes, with 22% better accuracy and 18% fewer false positives.
+    A synthetic video generator added 40% more variety to the training data.
+    The research, covering deepfake and counterfeit currency detection, was published at IEEE iSAI-NLP 2025. <a href="cite.html">cite →</a>
   </p>
   <p class="tools"><a href="https://pytorch.org/">PyTorch</a> · CNN · GAN · <a href="https://opencv.org/">OpenCV</a></p>
 </div>
 
-<div class="proj" id="neurosecapi">
-  <h3><i class="fa-solid fa-server fa-fw" aria-hidden="true"></i> NeuroSecAPI: Neuro-Symbolic API Vulnerability Detection <small>(AIR Centre, 2024–2025)</small></h3>
+<div class="proj" id="face-recognition">
+  <h3>Face Recognition System <small>(May 2025 · <a href="https://github.com/nithin434/face_recog_AP">code</a>)</small></h3>
   <p>
-    Symbolic reasoning combined with LLM-generated payloads (SQLi, XSS, BOLA) and adaptive fuzzing.
-    +34% vulnerabilities found compared with SAST/DAST, and 70% less manual testing.
-    A modular, multi-service pipeline with <a href="https://owasp.org/www-project-api-security/">OWASP API Top 10</a> risk scoring.
+    A pipeline that detects faces with a deep learning detector, turns each face into an embedding, and identifies people with a trained classifier.
+    It works on still images and live video.
   </p>
-  <p class="tools"><a href="https://flask.palletsprojects.com/">Flask</a> · <a href="https://owasp.org/">OWASP</a> · LLMs · <a href="https://en.wikipedia.org/wiki/Neuro-symbolic_AI">neuro-symbolic AI</a></p>
+  <p class="tools"><a href="https://opencv.org/">OpenCV DNN</a> · <a href="https://cmusatyalab.github.io/openface/">OpenFace</a> · <a href="https://scikit-learn.org/">scikit-learn</a></p>
 </div>
 
 <div class="proj" id="screenautomate">
-  <h3><i class="fa-solid fa-microchip fa-fw" aria-hidden="true"></i> ScreenAutomate: Gesture + Voice Control <small>(Oct 2023 – Jan 2024)</small></h3>
-  <p>Control a display with hand gestures and voice commands, active whenever you're within Bluetooth range. Built for accessibility and remote desktops.</p>
-  <p class="tools"><a href="https://developers.google.com/mediapipe">MediaPipe</a> · <a href="https://opencv.org/">OpenCV</a> · SpeechRecognition · Bluetooth</p>
+  <h3>ScreenAutomate: Gesture + Voice Control <small>(Oct 2023 – Jan 2024 · <a href="https://github.com/nithin434/Screen-Automate">code</a>)</small></h3>
+  <p>Control a computer with hand gestures and spoken commands: voice web search, system monitoring and screen automation. Built for accessibility.</p>
+  <p class="tools"><a href="https://developers.google.com/mediapipe">MediaPipe</a> · <a href="https://opencv.org/">OpenCV</a> · SpeechRecognition</p>
+</div>
+
+<h2><i class="fa-solid fa-box-open fa-fw" aria-hidden="true"></i> Open source</h2>
+
+<div class="proj" id="apk2abb">
+  <h3>apk2abb <small>(Feb 2026 · <a href="https://github.com/nithin434/apk2abb">code</a> · <a href="https://pypi.org/project/apk2abb/">PyPI</a>)</small></h3>
+  <p>A Python package that converts Android APKs into Play Store app bundles without Android Studio, and handles keystores and signing.</p>
 </div>
 
 <p><i class="fa-solid fa-images" aria-hidden="true"></i> More photos (events, awards, certificates) are in the <a href="gallery.html">gallery</a>.</p>
 
+<!-- FOOTER:start -->
 <div id="footer">
-  <a href="../">home</a> · <a href="atom.xml">atom</a> · <a href="rss.xml">rss</a> · <a href="../sitemap.xml">sitemap</a> · © Nithin Jambula · CC BY 4.0
+  <a href="https://github.com/nithin434" rel="me noopener">GitHub</a> ·
+  <a href="https://linkedin.com/in/nithin-jambula" rel="me noopener">LinkedIn</a> ·
+  <a href="https://doi.org/10.1109/AIRC69745.2026.11631384">IEEE AIRC 2026</a> ·
+  <a href="https://doi.org/10.1109/ISAI-NLP66160.2025.11320726">IEEE iSAI-NLP 2025</a> ·
+  <a href="https://pypi.org/project/apk2abb/">PyPI</a> ·
+  <a href="https://air.vitap.ac.in/">AIR Centre, VIT-AP</a> ·
+  <a href="https://vitap.ac.in/">VIT-AP University</a><br>
+  <a href="../">home</a> · <a href="projects.html">projects</a> · <a href="gallery.html">gallery</a> · <a href="cv.html">cv</a> · <a href="topics.html">topics</a> · <a href="cite.html">cite</a> · <a href="CV.pdf">cv.pdf</a> · <a href="atom.xml">atom</a> · <a href="rss.xml">rss</a> · <a href="feed.json">json feed</a> · <a href="../sitemap.xml">sitemap</a> · <a href="../llms.txt">llms.txt</a><br>
+  © 2023–2026 Nithin Jambula · <a href="mailto:nithinjambula89@gmail.com">nithinjambula89@gmail.com</a> · text under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
 </div>
+<!-- FOOTER:end -->
 
 </div>
 </body>

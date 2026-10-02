@@ -8,7 +8,7 @@ body {
   font-size: 17px;
   line-height: 1.45;
 }
-#page { max-width: 780px; margin: 0 auto; padding: 18px 16px 40px; }
+#page { max-width: 880px; margin: 0 auto; padding: 24px 24px 40px; }
 
 a { color: #000; text-decoration: underline; }
 a:visited { color: #444; }
@@ -35,9 +35,9 @@ li { margin: 3px 0; }
 
 table.bio { border-collapse: collapse; width: 100%; }
 table.bio td { vertical-align: top; padding: 0; }
-table.bio td.pic { width: 176px; padding-right: 22px; }
+table.bio td.pic { width: 216px; padding-right: 28px; }
 img.avatar, img.px { image-rendering: pixelated; image-rendering: crisp-edges; }
-img.avatar { width: 160px; height: 160px; border: 2px solid #000; }
+img.avatar { width: 200px; height: 200px; border: 2px solid #000; }
 img.px { width: 24px; height: 24px; vertical-align: -5px; margin-right: 6px; }
 
 .news td { vertical-align: top; padding: 2px 12px 2px 0; }
@@ -66,6 +66,7 @@ pre.cite { border: 1px solid #000; padding: 10px; overflow-x: auto; font-size: 1
 #footer img { image-rendering: pixelated; vertical-align: middle; }
 
 @media (max-width: 600px) {
+  #page { padding: 18px 16px 40px; }
   table.bio td { display: block; }
   table.bio td.pic { width: auto; padding: 0 0 12px; }
   .proj img.photo { float: none; width: 100%; margin: 0 0 8px; }
