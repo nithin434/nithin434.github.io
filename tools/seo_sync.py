@@ -193,6 +193,9 @@ def write_sitemap():
                 f"    <changefreq>{freq}</changefreq>", f"    <priority>{prio}</priority>", "  </url>"]
     out.append("</urlset>\n")
     (ROOT / "sitemap.xml").write_text("\n".join(out))
+    # Plain-text fallback: one URL per line (Google, Bing and Yandex accept it).
+    urls = [page_url(p) for p, *_ in PAGES] + [f"{SITE}/{p}" for p, *_ in PDFS]
+    (ROOT / "sitemap.txt").write_text("\n".join(urls) + "\n")
     return n_img, n_vid
 
 
