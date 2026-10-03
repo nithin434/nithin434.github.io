@@ -36,8 +36,27 @@ li { margin: 3px 0; }
 table.bio { border-collapse: collapse; width: 100%; }
 table.bio td { vertical-align: top; padding: 0; }
 table.bio td.pic { width: 216px; padding-right: 28px; }
+/* cv page */
+ul.contact { list-style: none; padding: 0; margin: 10px 0 0; font-size: 14px; columns: 2; column-gap: 24px; }
+ul.contact li { margin: 3px 0; break-inside: avoid; }
+.role { font-size: 17px; }
+.job { margin: 16px 0 4px; }
+.job .row { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.job .when { font-family: "Courier New", monospace; font-size: 14px; color: #333; white-space: nowrap; }
+
+/* homepage visiting card */
+.card { display: flex; gap: 28px; align-items: stretch; border: 2px solid #000; padding: 18px; }
+.card img.avatar { flex: none; }
+.card-body { display: flex; flex-direction: column; min-width: 0; }
+.card-body h1 { margin-bottom: 4px; }
+.card .role { font-size: 17px; }
+.card .where { font-size: 13px; color: #555; margin-top: 2px; }
+.card-links { list-style: none; padding: 0; margin: 12px 0 0; font-size: 14px; }
+.card-links li { margin: 3px 0; }
+.card-nav { margin-top: auto; padding-top: 12px; border-top: 1px dashed #000; font-size: 13px; display: flex; flex-wrap: wrap; gap: 6px 16px; }
 img.avatar, img.px { image-rendering: pixelated; image-rendering: crisp-edges; }
 img.avatar { width: 200px; height: 200px; border: 2px solid #000; }
+img.avatar.photo { image-rendering: auto; object-fit: cover; }
 img.px { width: 24px; height: 24px; vertical-align: -5px; margin-right: 6px; }
 
 .news td { vertical-align: top; padding: 2px 12px 2px 0; }
@@ -46,6 +65,8 @@ img.px { width: 24px; height: 24px; vertical-align: -5px; margin-right: 6px; }
 .proj { overflow: hidden; margin: 20px 0; }
 .proj img.photo { float: left; width: 210px; height: auto; margin: 4px 16px 8px 0; border: 1px solid #000; filter: grayscale(1); }
 .proj img.photo:hover { filter: none; }
+img.photo-full { max-width: 100%; height: auto; border: 1px solid #000; }
+.crumbs { margin: 0 0 6px; }
 .tools { font-family: "Courier New", monospace; font-size: 13px; }
 
 /* gallery: add a <figure> to a .grid and it lays itself out */
@@ -55,6 +76,8 @@ img.px { width: 24px; height: 24px; vertical-align: -5px; margin-right: 6px; }
 .grid img:hover { filter: none; }
 .grid a:hover { background: none; }
 .grid figcaption { margin-top: 4px; }
+.grid figure.wide { grid-column: 1 / -1; }
+.grid video { display: block; width: 100%; height: auto; border: 1px solid #000; background: #000; }
 .grid.certs img { object-fit: contain; background: #fff; }
 
 .terms { columns: 2; column-gap: 28px; }
@@ -66,6 +89,9 @@ pre.cite { border: 1px solid #000; padding: 10px; overflow-x: auto; font-size: 1
 #footer img { image-rendering: pixelated; vertical-align: middle; }
 
 @media (max-width: 600px) {
+  ul.contact { columns: 1; }
+  .card { flex-direction: column; gap: 14px; }
+  .card-nav { margin-top: 12px; }
   #page { padding: 18px 16px 40px; }
   table.bio td { display: block; }
   table.bio td.pic { width: auto; padding: 0 0 12px; }

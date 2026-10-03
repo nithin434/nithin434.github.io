@@ -1,6 +1,6 @@
 # Nithin Jambula
 
-> Software engineer working on robotics and AI systems. Builds robot behavior, perception and simulation testing software, multi-agent LLM systems and RAG, with a focus on clean system design. Based in Amaravati, India. Open to software engineering roles in robotics and AI systems.
+> Robotics software engineer who explores different things: mostly software for robots, system architecture and AI agents. Builds robot behavior, perception and simulation testing software, multi-agent LLM systems and RAG. Based in Amaravati, India. Open to software engineering roles in robotics and AI systems.
 
 - Email: nithinjambula89@gmail.com
 - GitHub: https://github.com/nithin434
@@ -14,13 +14,13 @@
 - Machine Learning Engineer, Sripto (Dec 2023 – May 2024): RAG over private documents, PDF chatbots, NL-to-SQL.
 
 ## Projects
-- [PatchPilot](https://nithin434.github.io/public/projects.html#patchpilot): multi-agent GitHub pull request review on LangGraph with ChromaDB memory.
-- [Context-Preserving RAG](https://nithin434.github.io/public/projects.html#rag): hybrid vector + BM25 search with query routing and traceable answers.
-- [16fps](https://nithin434.github.io/public/projects.html#16fps): multi-agent video generation; commercial rights sold.
-- [EchoSight](https://nithin434.github.io/public/projects.html#echosight): navigation glasses, YOLOv8 at 45+ FPS on a Raspberry Pi; patent pending; Vikas 2024 awardee.
-- [AprilTag Docking Rover](https://nithin434.github.io/public/projects.html#rover): ROS 2 rover with a docking mission state machine.
-- [MatriAI](https://nithin434.github.io/public/projects.html#matriai): semantic profile matching with FastAPI, LangChain, ChromaDB and MongoDB.
-- [AI Voice Calling Agent](https://nithin434.github.io/public/projects.html#voice-agent): real-time speech-to-text, LLM and text-to-speech calling agent.
+- [PatchPilot](https://nithin434.github.io/public/projects/patchpilot.html): multi-agent GitHub pull request review on LangGraph with ChromaDB memory.
+- [Context-Preserving RAG](https://nithin434.github.io/public/projects/rag.html): hybrid vector + BM25 search with query routing and traceable answers.
+- [16fps](https://nithin434.github.io/public/projects/16fps.html): multi-agent video generation.
+- [EchoSight](https://nithin434.github.io/public/projects/echosight.html): navigation glasses, YOLOv8 at 45+ FPS on a Raspberry Pi; patent pending; Vikas 2024 awardee.
+- [AprilTag Docking Rover](https://nithin434.github.io/public/projects/rover.html): ROS 2 rover with a docking mission state machine.
+- [MatriAI](https://nithin434.github.io/public/projects/matriai.html): semantic profile matching with FastAPI, LangChain, ChromaDB and MongoDB.
+- [AI Voice Calling Agent](https://nithin434.github.io/public/projects/voice-agent.html): real-time speech-to-text, LLM and text-to-speech calling agent.
 
 ## Publications
 - N. Jambula, S. C. Sethuraman, et al. "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing." IEEE AIRC 2026. https://doi.org/10.1109/AIRC69745.2026.11631384
@@ -34,6 +34,27 @@
 - [CV](https://nithin434.github.io/public/cv.html)
 - [Topics & tools](https://nithin434.github.io/public/topics.html)
 - [Cite](https://nithin434.github.io/public/cite.html)
+
+## Media
+Photos and video by Nithin Jambula, free to cite with attribution (CC BY 4.0).
+- Photo: https://nithin434.github.io/public/assets/img/avatar/me-800.jpg (Nithin Jambula)
+- Video: https://nithin434.github.io/public/assets/video/vulcan-ride.mp4 (a test run of Vulcan, the self-driving campus EV, at VIT-AP)
+- https://nithin434.github.io/public/assets/img/photos/car.jpg (Vulcan self-driving campus EV)
+- https://nithin434.github.io/public/assets/img/photos/vlan.jpg (Vulcan at VLaunchpad 2025)
+- https://nithin434.github.io/public/assets/img/photos/vulcan-perception-test.jpg (live detection running in Vulcan on a campus road)
+- https://nithin434.github.io/public/assets/img/photos/vulcan-cockpit.jpg (Vulcan cockpit, wiring and controls)
+- https://nithin434.github.io/public/assets/img/photos/vulcan-night.jpg (Vulcan at night)
+- https://nithin434.github.io/public/assets/img/photos/vision-demo.jpg (real-time computer vision demo)
+- https://nithin434.github.io/public/assets/img/photos/echo.jpg (EchoSight navigation glasses prototype)
+- https://nithin434.github.io/public/assets/img/photos/vikas.jpg (Vikas 2024 Innovation Challenge award)
+- Gallery page: https://nithin434.github.io/public/gallery.html
+
+## Feeds & machine-readable
+- Atom: https://nithin434.github.io/public/atom.xml
+- RSS: https://nithin434.github.io/public/rss.xml
+- JSON Feed: https://nithin434.github.io/public/feed.json
+- Sitemap (pages, images, video): https://nithin434.github.io/sitemap.xml
+- Citation: https://nithin434.github.io/CITATION.cff
 
 ## Education
 - B.Tech CSE, VIT-AP University (2023–2027), CGPA 8.0/10

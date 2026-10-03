@@ -3,28 +3,49 @@
   "title": "Nithin Jambula",
   "home_page_url": "https://nithin434.github.io/",
   "feed_url": "https://nithin434.github.io/public/feed.json",
-  "description": "Software engineer: robotics and AI systems",
-  "icon": "https://nithin434.github.io/public/assets/img/avatar/avatar-512.png",
+  "description": "Robotics software engineer: software for robots, system architecture and AI agents",
+  "icon": "https://nithin434.github.io/public/assets/img/avatar/me-800.jpg",
   "favicon": "https://nithin434.github.io/public/assets/img/avatar/avatar-32.png",
   "authors": [
     {
       "name": "Nithin Jambula",
       "url": "https://nithin434.github.io/",
-      "avatar": "https://nithin434.github.io/public/assets/img/avatar/avatar-192.png"
+      "avatar": "https://nithin434.github.io/public/assets/img/avatar/me.jpg"
     }
   ],
   "language": "en",
   "items": [
     {
+      "id": "tag:nithin434.github.io,2026-10-03:vulcan-test-video",
+      "url": "https://nithin434.github.io/public/gallery.html#vulcan-ride",
+      "title": "Video: a test run of Vulcan at VIT-AP",
+      "content_text": "A short clip from a test run of Vulcan, the self-driving electric campus vehicle built by students at VIT-AP University.",
+      "date_published": "2026-10-03T00:00:00Z",
+      "tags": [
+        "Robotics",
+        "AI Agents",
+        "System Architecture"
+      ],
+      "image": "https://nithin434.github.io/public/assets/video/vulcan-ride-poster.jpg",
+      "attachments": [
+        {
+          "url": "https://nithin434.github.io/public/assets/video/vulcan-ride.mp4",
+          "mime_type": "video/mp4",
+          "size_in_bytes": 3397895,
+          "title": "Video: a test run of Vulcan at VIT-AP"
+        }
+      ]
+    },
+    {
       "id": "tag:nithin434.github.io,2026-04-17:context-rag",
-      "url": "https://nithin434.github.io/public/projects.html#rag",
+      "url": "https://nithin434.github.io/public/projects/rag.html",
       "title": "Context-Preserving RAG system for enterprise documents",
       "content_text": "Source-backed answers from PDF, DOCX and text files. Combines vector and BM25 keyword search, routes each question to the best search strategy, and records which passages every answer used.",
       "date_published": "2026-04-17T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
+        "AI Agents",
+        "System Architecture"
       ]
     },
     {
@@ -35,20 +56,20 @@
       "date_published": "2026-04-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
+        "AI Agents",
+        "System Architecture"
       ]
     },
     {
       "id": "tag:nithin434.github.io,2025-12-26:apriltag-rover",
-      "url": "https://nithin434.github.io/public/projects.html#rover",
+      "url": "https://nithin434.github.io/public/projects/rover.html",
       "title": "AprilTag docking rover (ROS 2)",
       "content_text": "A ROS 2 rover that finds and docks with its station on its own using AprilTag pose estimation and a multi-stage mission state machine.",
       "date_published": "2025-12-26T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
+        "AI Agents",
+        "System Architecture"
       ]
     },
     {
@@ -59,8 +80,8 @@
       "date_published": "2025-12-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
+        "AI Agents",
+        "System Architecture"
       ]
     },
     {
@@ -71,69 +92,71 @@
       "date_published": "2025-11-12T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
+        "AI Agents",
+        "System Architecture"
       ]
     },
     {
       "id": "tag:nithin434.github.io,2025-10-25:patchpilot",
-      "url": "https://nithin434.github.io/public/projects.html#patchpilot",
+      "url": "https://nithin434.github.io/public/projects/patchpilot.html",
       "title": "PatchPilot: multi-agent code review with LangGraph",
       "content_text": "AI agents review GitHub pull requests for security, quality and logic. A LangGraph state graph routes each pull request, and ChromaDB memory lets reviews learn from past issues.",
       "date_published": "2025-10-25T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
+        "AI Agents",
+        "System Architecture"
       ]
     },
     {
       "id": "tag:nithin434.github.io,2025-10-01:16fps",
-      "url": "https://nithin434.github.io/public/projects.html#16fps",
-      "title": "16fps: multi-agent video generation, commercial rights sold",
-      "content_text": "A multi-agent system that generates consistent videos over a minute long from text, using memory, tool use and self-review. Commercial rights and access sold to a media production company.",
+      "url": "https://nithin434.github.io/public/projects/16fps.html",
+      "title": "16fps: multi-agent video generation",
+      "content_text": "A multi-agent system that generates consistent videos over a minute long from text, using memory, tool use and self-review.",
       "date_published": "2025-10-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
+        "AI Agents",
+        "System Architecture"
       ]
     },
     {
       "id": "tag:nithin434.github.io,2024-11-01:echosight-vikas",
-      "url": "https://nithin434.github.io/public/projects.html#echosight",
+      "url": "https://nithin434.github.io/public/projects/echosight.html",
       "title": "EchoSight named awardee at Vikas 2024; patent filed",
       "content_text": "Navigation glasses for the visually impaired running YOLOv8 at 45+ FPS on a Raspberry Pi, with spoken directions.",
       "date_published": "2024-11-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
-      ]
+        "AI Agents",
+        "System Architecture"
+      ],
+      "image": "https://nithin434.github.io/public/assets/img/photos/echo.jpg"
     },
     {
       "id": "tag:nithin434.github.io,2024-06-01:air-centre",
-      "url": "https://nithin434.github.io/public/projects.html#neurosecapi",
+      "url": "https://nithin434.github.io/public/projects/neurosecapi.html",
       "title": "Student research engineer at AIR Centre, VIT-AP",
       "content_text": "LLM agents with rule-based reasoning for API security testing (+34% vulnerabilities found, 70% less manual testing), and a real-time AI voice calling agent.",
       "date_published": "2024-06-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
+        "AI Agents",
+        "System Architecture"
       ]
     },
     {
       "id": "tag:nithin434.github.io,2023-01-01:vulcan",
-      "url": "https://nithin434.github.io/public/projects.html#vulcan",
+      "url": "https://nithin434.github.io/public/projects/vulcan.html",
       "title": "Vulcan self-driving EV: perception & navigation lead",
       "content_text": "DeepLabV3+ segmentation, lane following, CARLA + SAC + DAgger, real-time on NVIDIA Jetson.",
       "date_published": "2023-01-01T00:00:00Z",
       "tags": [
         "Robotics",
-        "AI Systems",
-        "System Design"
-      ]
+        "AI Agents",
+        "System Architecture"
+      ],
+      "image": "https://nithin434.github.io/public/assets/img/photos/car.jpg"
     }
   ]
 }

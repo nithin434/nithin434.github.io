@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>Nithin Jambula</title>
   <link>https://nithin434.github.io/</link>
-  <description>Software engineer: robotics and AI systems</description>
+  <description>Robotics software engineer: software for robots, system architecture and AI agents</description>
   <language>en</language>
   <atom:link href="https://nithin434.github.io/public/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate>
   <managingEditor>nithinjambula89@gmail.com (Nithin Jambula)</managingEditor>
-  <image><url>https://nithin434.github.io/public/assets/img/avatar/avatar-192.png</url><title>Nithin Jambula</title><link>https://nithin434.github.io/</link></image>
+  <image><url>https://nithin434.github.io/public/assets/img/avatar/me.jpg</url><title>Nithin Jambula</title><link>https://nithin434.github.io/</link></image>
   <category>Robotics</category>
-  <category>AI Systems</category>
-  <category>System Design</category>
+  <category>AI Agents</category>
+  <category>System Architecture</category>
   <category>Nithin Jambula</category>
   <item>
+    <title>Video: a test run of Vulcan at VIT-AP</title>
+    <link>https://nithin434.github.io/public/gallery.html#vulcan-ride</link>
+    <guid isPermaLink="false">tag:nithin434.github.io,2026-10-03:vulcan-test-video</guid>
+    <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+    <description>A short clip from a test run of Vulcan, the self-driving electric campus vehicle built by students at VIT-AP University.</description>
+    <enclosure url="https://nithin434.github.io/public/assets/video/vulcan-ride.mp4" length="3397895" type="video/mp4"/>
+    <media:content url="https://nithin434.github.io/public/assets/video/vulcan-ride-poster.jpg" medium="image" type="image/jpeg"/>
+    <media:thumbnail url="https://nithin434.github.io/public/assets/video/vulcan-ride-poster.jpg"/>
+  </item>
+  <item>
     <title>Context-Preserving RAG system for enterprise documents</title>
-    <link>https://nithin434.github.io/public/projects.html#rag</link>
+    <link>https://nithin434.github.io/public/projects/rag.html</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2026-04-17:context-rag</guid>
     <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     <description>Source-backed answers from PDF, DOCX and text files. Combines vector and BM25 keyword search, routes each question to the best search strategy, and records which passages every answer used.</description>
@@ -29,7 +39,7 @@
   </item>
   <item>
     <title>AprilTag docking rover (ROS 2)</title>
-    <link>https://nithin434.github.io/public/projects.html#rover</link>
+    <link>https://nithin434.github.io/public/projects/rover.html</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2025-12-26:apriltag-rover</guid>
     <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
     <description>A ROS 2 rover that finds and docks with its station on its own using AprilTag pose estimation and a multi-stage mission state machine.</description>
@@ -50,38 +60,44 @@
   </item>
   <item>
     <title>PatchPilot: multi-agent code review with LangGraph</title>
-    <link>https://nithin434.github.io/public/projects.html#patchpilot</link>
+    <link>https://nithin434.github.io/public/projects/patchpilot.html</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2025-10-25:patchpilot</guid>
     <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
     <description>AI agents review GitHub pull requests for security, quality and logic. A LangGraph state graph routes each pull request, and ChromaDB memory lets reviews learn from past issues.</description>
   </item>
   <item>
-    <title>16fps: multi-agent video generation, commercial rights sold</title>
-    <link>https://nithin434.github.io/public/projects.html#16fps</link>
+    <title>16fps: multi-agent video generation</title>
+    <link>https://nithin434.github.io/public/projects/16fps.html</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2025-10-01:16fps</guid>
     <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    <description>A multi-agent system that generates consistent videos over a minute long from text, using memory, tool use and self-review. Commercial rights and access sold to a media production company.</description>
+    <description>A multi-agent system that generates consistent videos over a minute long from text, using memory, tool use and self-review.</description>
   </item>
   <item>
     <title>EchoSight named awardee at Vikas 2024; patent filed</title>
-    <link>https://nithin434.github.io/public/projects.html#echosight</link>
+    <link>https://nithin434.github.io/public/projects/echosight.html</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2024-11-01:echosight-vikas</guid>
     <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
     <description>Navigation glasses for the visually impaired running YOLOv8 at 45+ FPS on a Raspberry Pi, with spoken directions.</description>
+    <enclosure url="https://nithin434.github.io/public/assets/img/photos/echo.jpg" length="39362" type="image/jpeg"/>
+    <media:content url="https://nithin434.github.io/public/assets/img/photos/echo.jpg" medium="image" type="image/jpeg"/>
+    <media:thumbnail url="https://nithin434.github.io/public/assets/img/photos/echo.jpg"/>
   </item>
   <item>
     <title>Student research engineer at AIR Centre, VIT-AP</title>
-    <link>https://nithin434.github.io/public/projects.html#neurosecapi</link>
+    <link>https://nithin434.github.io/public/projects/neurosecapi.html</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2024-06-01:air-centre</guid>
     <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
     <description>LLM agents with rule-based reasoning for API security testing (+34% vulnerabilities found, 70% less manual testing), and a real-time AI voice calling agent.</description>
   </item>
   <item>
     <title>Vulcan self-driving EV: perception &amp; navigation lead</title>
-    <link>https://nithin434.github.io/public/projects.html#vulcan</link>
+    <link>https://nithin434.github.io/public/projects/vulcan.html</link>
     <guid isPermaLink="false">tag:nithin434.github.io,2023-01-01:vulcan</guid>
     <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
     <description>DeepLabV3+ segmentation, lane following, CARLA + SAC + DAgger, real-time on NVIDIA Jetson.</description>
+    <enclosure url="https://nithin434.github.io/public/assets/img/photos/car.jpg" length="85001" type="image/jpeg"/>
+    <media:content url="https://nithin434.github.io/public/assets/img/photos/car.jpg" medium="image" type="image/jpeg"/>
+    <media:thumbnail url="https://nithin434.github.io/public/assets/img/photos/car.jpg"/>
   </item>
 </channel>
 </rss>

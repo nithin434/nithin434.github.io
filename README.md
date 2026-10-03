@@ -3,6 +3,10 @@
 Personal portfolio of **Nithin Jambula**: robotics software, agentic AI, architecture & infrastructure.
 It's plain HTML and CSS with no build step. Live at <https://nithin434.github.io/>.
 
+
+make this one like the icons are not good get some good icons with smooth finishing from the internet and then ni the ananta tech nologies one make it like bt.cpp groot mujoco webots and things dotnet ui's andnall 
+
+
 ## Layout
 
 ```
@@ -15,6 +19,7 @@ It's plain HTML and CSS with no build step. Live at <https://nithin434.github.io
 ├── .well-known/                webfinger, did.json, security.txt
 ├── public/                     everything else
 │   ├── projects.html gallery.html cv.html topics.html cite.html
+│   ├── projects/               one page per project (generated from projects.html)
 │   ├── CV.pdf
 │   ├── atom.xml rss.xml feed.json      feeds (update all three for news)
 │   ├── humans.txt nithin-jambula.vcf manifest.json opensearch.xml browserconfig.xml
@@ -29,7 +34,11 @@ It's plain HTML and CSS with no build step. Live at <https://nithin434.github.io
 │           └── icons/          legacy app/tile icons
 ├── tools/
 │   ├── resize_photos.py        originals/ → photos/ (800px)
-│   └── make_pixel_art.py       regenerates avatar, favicon, og-image
+│   ├── make_pixel_art.py       regenerates avatar, favicon, og-image
+│   ├── seo_sync.py             SEO tags, backlink footer, sitemap.xml (pages, images, videos)
+│   ├── make_feeds.py           atom.xml, rss.xml, feed.json from one list of news items
+│   ├── make_project_pages.py   public/projects/<id>.html from projects.html
+│   └── indexnow.py             ping Bing/Yandex with every sitemap URL after a deploy
 └── .github/workflows/pages.yml deploys the root to GitHub Pages on push to main
 ```
 
@@ -40,9 +49,26 @@ It's plain HTML and CSS with no build step. Live at <https://nithin434.github.io
 3. In `public/gallery.html`, copy a `<figure>` block into the right section and edit the `src`, `alt` and caption.
 4. Add an `<image:image>` line under the gallery entry in `sitemap.xml`.
 
+## Adding a page
+
+Copy an existing page in `public/`, add it to `PAGES` in `tools/seo_sync.py`, then run `python3 tools/seo_sync.py`.
+It fills in any missing SEO tags and the breadcrumb, syncs the backlink footer, and rewrites `sitemap.xml`.
+Re-running it is safe.
+
+## Editing projects
+
+Edit the project in `public/projects.html`, then run:
+
+```
+python3 tools/make_project_pages.py && python3 tools/seo_sync.py
+```
+
+After the push has deployed, run `python3 tools/indexnow.py` to ask Bing and Yandex to re-crawl.
+
 ## Adding news
 
-Add a row to the News table in `index.html`. Add the same item to `public/atom.xml`, `public/rss.xml` and `public/feed.json`, newest first, and bump each feed's `updated` / `lastBuildDate`.
+Add a row to the News table in `index.html`, add the same item at the top of `ITEMS` in `tools/make_feeds.py`, and run `python3 tools/make_feeds.py`.
+After adding photos or videos to a page, run `python3 tools/seo_sync.py` so they land in `sitemap.xml`.
 
 ## Conventions
 
