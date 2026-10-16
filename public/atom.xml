@@ -27,6 +27,14 @@
     <media:thumbnail url="https://nithin434.github.io/public/assets/video/vulcan-ride-poster.jpg"/>
   </entry>
   <entry>
+    <title>Contribution merged into microsoft/markitdown: Python 3.14 support</title>
+    <id>tag:nithin434.github.io,2026-09-21:markitdown-2407</id>
+    <link rel="alternate" type="text/html" href="https://github.com/microsoft/markitdown/pull/2407"/>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <published>2026-09-21T00:00:00Z</published>
+    <summary>Merged pull request #2407 to Microsoft&#x27;s MarkItDown (190K+ stars), updating its YouTube transcript dependency so the tool supports Python 3.14.</summary>
+  </entry>
+  <entry>
     <title>Context-Preserving RAG system for enterprise documents</title>
     <id>tag:nithin434.github.io,2026-04-17:context-rag</id>
     <link rel="alternate" type="text/html" href="https://nithin434.github.io/public/projects/rag.html"/>
@@ -41,6 +49,14 @@
     <updated>2026-04-01T00:00:00Z</updated>
     <published>2026-04-01T00:00:00Z</published>
     <summary>A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing. 7th International Conference on Artificial Intelligence, Robotics, and Control. DOI 10.1109/AIRC69745.2026.11631384.</summary>
+  </entry>
+  <entry>
+    <title>Contribution merged into learning-unlimited/ESP-Website: faster Docker builds</title>
+    <id>tag:nithin434.github.io,2026-03-20:esp-website-4428</id>
+    <link rel="alternate" type="text/html" href="https://github.com/learning-unlimited/ESP-Website/pull/4428"/>
+    <updated>2026-03-20T00:00:00Z</updated>
+    <published>2026-03-20T00:00:00Z</published>
+    <summary>Merged pull request #4428 to ESP-Website, the platform behind Learning Unlimited&#x27;s Splash programs, optimizing its Docker configuration for faster builds and a smaller image.</summary>
   </entry>
   <entry>
     <title>AprilTag docking rover (ROS 2)</title>

@@ -37,6 +37,18 @@
       ]
     },
     {
+      "id": "tag:nithin434.github.io,2026-09-21:markitdown-2407",
+      "url": "https://github.com/microsoft/markitdown/pull/2407",
+      "title": "Contribution merged into microsoft/markitdown: Python 3.14 support",
+      "content_text": "Merged pull request #2407 to Microsoft's MarkItDown (190K+ stars), updating its YouTube transcript dependency so the tool supports Python 3.14.",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "Robotics",
+        "AI Agents",
+        "System Architecture"
+      ]
+    },
+    {
       "id": "tag:nithin434.github.io,2026-04-17:context-rag",
       "url": "https://nithin434.github.io/public/projects/rag.html",
       "title": "Context-Preserving RAG system for enterprise documents",
@@ -54,6 +66,18 @@
       "title": "Paper at IEEE AIRC 2026: neuro-symbolic API security testing",
       "content_text": "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing. 7th International Conference on Artificial Intelligence, Robotics, and Control. DOI 10.1109/AIRC69745.2026.11631384.",
       "date_published": "2026-04-01T00:00:00Z",
+      "tags": [
+        "Robotics",
+        "AI Agents",
+        "System Architecture"
+      ]
+    },
+    {
+      "id": "tag:nithin434.github.io,2026-03-20:esp-website-4428",
+      "url": "https://github.com/learning-unlimited/ESP-Website/pull/4428",
+      "title": "Contribution merged into learning-unlimited/ESP-Website: faster Docker builds",
+      "content_text": "Merged pull request #4428 to ESP-Website, the platform behind Learning Unlimited's Splash programs, optimizing its Docker configuration for faster builds and a smaller image.",
+      "date_published": "2026-03-20T00:00:00Z",
       "tags": [
         "Robotics",
         "AI Agents",

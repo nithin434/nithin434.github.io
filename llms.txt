@@ -22,6 +22,11 @@
 - [MatriAI](https://nithin434.github.io/public/projects/matriai.html): semantic profile matching with FastAPI, LangChain, ChromaDB and MongoDB.
 - [AI Voice Calling Agent](https://nithin434.github.io/public/projects/voice-agent.html): real-time speech-to-text, LLM and text-to-speech calling agent.
 
+## Open source contributions
+- microsoft/markitdown (190K+ stars): merged PR #2407 adding Python 3.14 support. https://github.com/microsoft/markitdown/pull/2407 . Open PR #2619, MCP setup docs for VS Code. https://github.com/microsoft/markitdown/pull/2619
+- learning-unlimited/ESP-Website: merged PR #4428 optimizing the Docker configuration. https://github.com/learning-unlimited/ESP-Website/pull/4428
+- apk2abb (own package on PyPI): https://pypi.org/project/apk2abb/
+
 ## Publications
 - N. Jambula, S. C. Sethuraman, et al. "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing." IEEE AIRC 2026. https://doi.org/10.1109/AIRC69745.2026.11631384
 - N. Jambula, N. K. Reddy, K. Pandey, M. Mahesh. "Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency." IEEE iSAI-NLP 2025. https://doi.org/10.1109/ISAI-NLP66160.2025.11320726

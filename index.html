@@ -75,7 +75,7 @@
       "name": "Nithin Jambula — Software Engineer, Robotics & AI Systems",
       "isPartOf": {"@id": "https://nithin434.github.io/#website"},
       "mainEntity": {"@id": "https://nithin434.github.io/#person"},
-      "dateModified": "2026-10-02T00:00:00+05:30"
+      "dateModified": "2026-10-16T00:00:00+05:30"
     },
     {
       "@type": "Person",
@@ -187,6 +187,31 @@
       "datePublished": "2025-11-12T00:00:00+05:30",
       "sameAs": "https://doi.org/10.1109/ISAI-NLP66160.2025.11320726",
       "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.1109/ISAI-NLP66160.2025.11320726"}
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/microsoft/markitdown",
+      "name": "MarkItDown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "codeRepository": "https://github.com/microsoft/markitdown",
+      "programmingLanguage": "Python",
+      "publisher": {"@type": "Organization", "name": "Microsoft"},
+      "contributor": {"@id": "https://nithin434.github.io/#person"},
+      "subjectOf": [
+        {"@type": "WebPage", "name": "Add Python 3.14 support (merged PR #2407)", "url": "https://github.com/microsoft/markitdown/pull/2407"},
+        {"@type": "WebPage", "name": "Docs: configure MCP in VS Code (PR #2619)", "url": "https://github.com/microsoft/markitdown/pull/2619"}
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/learning-unlimited/ESP-Website",
+      "name": "ESP-Website",
+      "description": "Website to manage the logistics of large, short-term educational programs (Splash, Learning Unlimited).",
+      "codeRepository": "https://github.com/learning-unlimited/ESP-Website",
+      "programmingLanguage": "Python",
+      "publisher": {"@type": "Organization", "name": "Learning Unlimited", "url": "https://www.learningu.org/"},
+      "contributor": {"@id": "https://nithin434.github.io/#person"},
+      "subjectOf": {"@type": "WebPage", "name": "Optimize Docker configuration (merged PR #4428)", "url": "https://github.com/learning-unlimited/ESP-Website/pull/4428"}
     }
   ]
 }
@@ -219,6 +244,7 @@
       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> <a href="public/CV.pdf">cv.pdf</a>
       <i class="fa-solid fa-address-card" aria-hidden="true"></i> <a href="public/nithin-jambula.vcf">vcard</a>
       <i class="fa-solid fa-book" aria-hidden="true"></i> <a href="#publications">papers</a>
+      <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="#open-source">open source</a>
       <i class="fa-solid fa-tags" aria-hidden="true"></i> <a href="public/topics.html">topics</a>
     </div>
   </div>
@@ -231,9 +257,24 @@
   These days it's mostly software for robots, system architecture and AI agents, but I explore all sorts of things. You can see what I work with over <a href="public/topics.html">here</a>.
 </p>
 
+<h2 id="open-source">Open source</h2>
+<ul>
+  <li><b><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a></b> (190K+ stars):
+    Microsoft's Python tool for converting files and office documents to Markdown for LLM pipelines.
+    Merged <a href="https://github.com/microsoft/markitdown/pull/2407">#2407</a>, which added Python 3.14 support by updating its YouTube transcript dependency.
+    Open: <a href="https://github.com/microsoft/markitdown/pull/2619">#2619</a>, docs for configuring MarkItDown's MCP server in VS Code.
+    <a href="https://github.com/microsoft/markitdown/pulls?q=is%3Apr+author%3Anithin434">my PRs →</a></li>
+  <li><b><a href="https://github.com/learning-unlimited/ESP-Website">learning-unlimited/ESP-Website</a></b>:
+    the open-source platform behind Splash educational programs run by Learning Unlimited.
+    Merged <a href="https://github.com/learning-unlimited/ESP-Website/pull/4428">#4428</a>, which optimized the Docker setup for faster builds and smaller images.
+    <a href="https://github.com/learning-unlimited/ESP-Website/pulls?q=is%3Apr+author%3Anithin434">my PRs →</a></li>
+</ul>
+
 <h2>News</h2>
 <table class="news">
+  <tr><td class="d">2026-09</td><td>Contribution merged into <a href="https://github.com/microsoft/markitdown/pull/2407">microsoft/markitdown</a>: Python 3.14 support.</td></tr>
   <tr><td class="d">2026-04</td><td>Paper at IEEE AIRC 2026: <a href="https://doi.org/10.1109/AIRC69745.2026.11631384">A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing</a>.</td></tr>
+  <tr><td class="d">2026-03</td><td>Contribution merged into <a href="https://github.com/learning-unlimited/ESP-Website/pull/4428">learning-unlimited/ESP-Website</a>: faster, smaller Docker builds.</td></tr>
   <tr><td class="d">2025-12</td><td>Joined <b>Ananta Technologies</b> as a Software Engineer, Robotics &amp; Autonomy.</td></tr>
   <tr><td class="d">2025-11</td><td>Paper at IEEE iSAI-NLP 2025: <a href="https://doi.org/10.1109/ISAI-NLP66160.2025.11320726">Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency</a>.</td></tr>
   <tr><td class="d">2025-10</td><td>Started <a href="public/projects/16fps.html">16fps</a>, a multi-agent video generation platform.</td></tr>

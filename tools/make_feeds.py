@@ -22,6 +22,9 @@ CATEGORIES = ["Robotics", "AI Agents", "System Architecture", "Nithin Jambula"]
 
 # date, id, title, summary, link, image (path under public/ or None), video (path under public/ or None)
 ITEMS = [
+    ("2026-09-21", "markitdown-2407", "Contribution merged into microsoft/markitdown: Python 3.14 support",
+     "Merged pull request #2407 to Microsoft's MarkItDown (190K+ stars), updating its YouTube transcript dependency so the tool supports Python 3.14.",
+     "https://github.com/microsoft/markitdown/pull/2407", None, None),
     ("2026-10-03", "vulcan-test-video", "Video: a test run of Vulcan at VIT-AP",
      "A short clip from a test run of Vulcan, the self-driving electric campus vehicle built by students at VIT-AP University.",
      f"{P}/gallery.html#vulcan-ride", "assets/video/vulcan-ride-poster.jpg", "assets/video/vulcan-ride.mp4"),
@@ -31,6 +34,9 @@ ITEMS = [
     ("2026-04-01", "airc-2026", "Paper at IEEE AIRC 2026: neuro-symbolic API security testing",
      "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing. 7th International Conference on Artificial Intelligence, Robotics, and Control. DOI 10.1109/AIRC69745.2026.11631384.",
      "https://doi.org/10.1109/AIRC69745.2026.11631384", None, None),
+    ("2026-03-20", "esp-website-4428", "Contribution merged into learning-unlimited/ESP-Website: faster Docker builds",
+     "Merged pull request #4428 to ESP-Website, the platform behind Learning Unlimited's Splash programs, optimizing its Docker configuration for faster builds and a smaller image.",
+     "https://github.com/learning-unlimited/ESP-Website/pull/4428", None, None),
     ("2025-12-26", "apriltag-rover", "AprilTag docking rover (ROS 2)",
      "A ROS 2 rover that finds and docks with its station on its own using AprilTag pose estimation and a multi-stage mission state machine.",
      f"{P}/projects/rover.html", None, None),
@@ -149,5 +155,6 @@ def json_feed():
 
 
 if __name__ == "__main__":
+    ITEMS.sort(key=lambda it: it[0], reverse=True)   # newest first, whatever order they were added in
     atom(); rss(); json_feed()
     print(f"atom.xml, rss.xml, feed.json written ({len(ITEMS)} items)")
