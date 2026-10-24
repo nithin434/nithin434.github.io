@@ -30,7 +30,7 @@
 ## Publications
 - N. Jambula, S. C. Sethuraman, et al. "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing." IEEE AIRC 2026. https://doi.org/10.1109/AIRC69745.2026.11631384
 - N. Jambula, N. K. Reddy, K. Pandey, M. Mahesh. "Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency." IEEE iSAI-NLP 2025. https://doi.org/10.1109/ISAI-NLP66160.2025.11320726
-- Patent pending: EchoSight, AI-powered wearable navigation system.
+- Patent application No. 202641029010 (India, pending): threat detection system and navigation scoring algorithm.
 
 ## Pages
 - [Home](https://nithin434.github.io/)
