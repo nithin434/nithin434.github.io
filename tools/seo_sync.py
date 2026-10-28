@@ -169,32 +169,42 @@ def media_on(page):
 
 
 def write_sitemap():
+    """Write three sitemaps:
+    sitemap.xml        pages and PDFs only, in the most basic format every parser accepts
+    sitemap-media.xml  the same pages with Google image/video extensions (kept separate so a
+                       parser that dislikes extensions can never block page discovery)
+    sitemap.txt        one URL per line
+    """
     esc = lambda t: html.escape(t, quote=False)
-    out = ['<?xml version="1.0" encoding="UTF-8"?>',
-           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
-           '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"',
-           '        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">']
-    n_img = n_vid = 0
-    for path, prio, freq, _ in PAGES:
-        images, videos = media_on(path)
-        out += ["  <url>", f"    <loc>{page_url(path)}</loc>", f"    <lastmod>{TODAY}</lastmod>",
-                f"    <changefreq>{freq}</changefreq>", f"    <priority>{prio}</priority>"]
-        for url, cap in images:
-            out.append(f"    <image:image><image:loc>{url}</image:loc><image:title>{esc(cap)}</image:title></image:image>")
-        for url, poster, title, text in videos:
-            out += ["    <video:video>", f"      <video:thumbnail_loc>{poster}</video:thumbnail_loc>",
-                    f"      <video:title>{esc(title)}</video:title>", f"      <video:description>{esc(text)}</video:description>",
-                    f"      <video:content_loc>{url}</video:content_loc>", "      <video:family_friendly>yes</video:family_friendly>",
-                    "    </video:video>"]
-        n_img += len(images); n_vid += len(videos)
-        out.append("  </url>")
-    for path, prio, freq in PDFS:
-        out += ["  <url>", f"    <loc>{SITE}/{path}</loc>", f"    <lastmod>{TODAY}</lastmod>",
-                f"    <changefreq>{freq}</changefreq>", f"    <priority>{prio}</priority>", "  </url>"]
-    out.append("</urlset>\n")
-    (ROOT / "sitemap.xml").write_text("\n".join(out))
-    # Plain-text fallback: one URL per line (Google, Bing and Yandex accept it).
     urls = [page_url(p) for p, *_ in PAGES] + [f"{SITE}/{p}" for p, *_ in PDFS]
+
+    plain = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    plain += [f"  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls]
+    plain.append("</urlset>\n")
+    (ROOT / "sitemap.xml").write_text("\n".join(plain))
+
+    media = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+             '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"',
+             '        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">']
+    n_img = n_vid = 0
+    for path, *_ in PAGES:
+        images, videos = media_on(path)
+        if not images and not videos:
+            continue
+        media += ["  <url>", f"    <loc>{page_url(path)}</loc>"]
+        for url, cap in images:
+            media.append(f"    <image:image><image:loc>{url}</image:loc><image:title>{esc(cap)}</image:title></image:image>")
+        for url, poster, title, text in videos:
+            media += ["    <video:video>", f"      <video:thumbnail_loc>{poster}</video:thumbnail_loc>",
+                      f"      <video:title>{esc(title)}</video:title>", f"      <video:description>{esc(text)}</video:description>",
+                      f"      <video:content_loc>{url}</video:content_loc>", "    </video:video>"]
+        n_img += len(images); n_vid += len(videos)
+        media.append("  </url>")
+    media.append("</urlset>\n")
+    (ROOT / "sitemap-media.xml").write_text("\n".join(media))
+
     (ROOT / "sitemap.txt").write_text("\n".join(urls) + "\n")
     return n_img, n_vid
 
@@ -203,4 +213,4 @@ if __name__ == "__main__":
     for path, _, _, crumb in PAGES:
         print(f"{path}: added {sync_page(path, crumb)} tags, footer synced")
     n_img, n_vid = write_sitemap()
-    print(f"sitemap.xml written: {len(PAGES) + len(PDFS)} URLs, {n_img} images, {n_vid} videos")
+    print(f"sitemap.xml: {len(PAGES) + len(PDFS)} URLs | sitemap-media.xml: {n_img} images, {n_vid} videos | sitemap.txt")

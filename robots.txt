@@ -6,4 +6,5 @@ Disallow: /resume/
 
 Sitemap: https://nithin434.github.io/sitemap.xml
 Sitemap: https://nithin434.github.io/sitemap.txt
+Sitemap: https://nithin434.github.io/sitemap-media.xml
 Sitemap: https://nithin434.github.io/public/atom.xml
