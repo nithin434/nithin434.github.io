@@ -80,7 +80,7 @@
 <h2>Experience</h2>
 <div class="job">
   <div class="row"><b>Ananta Technologies</b><span class="when">Dec 2025 – Present</span></div>
-  <div class="row"><i>Software Engineer, Robotics &amp; Autonomy</i><span class="when"><i>India</i></span></div>
+  <div class="row"><i>Software Engineer, Robotics &amp; Autonomy (joined as Software Engineer Intern, now full-time)</i><span class="when"><i>India</i></span></div>
 </div>
 <ul>
   <li>Own the camera-guided robot positioning module (AprilTag pose estimation and motion sequencing) as its main maintainer, keeping it reliable across multiple autonomous pilot programs.</li>
@@ -88,6 +88,15 @@
   <li>Designed behavior trees and decision logic that turn mission plans into clear, step-by-step robot actions, with retries and fallbacks so robots recover from errors instead of stopping.</li>
   <li>Built and expanded a <a href="https://mujoco.org/">MuJoCo</a> and <a href="https://cyberbotics.com/">Webots</a> simulation test suite to 50+ scenarios covering motion, navigation and failure recovery, cutting validation time by 35%.</li>
   <li>Took 2 robots from simulation to the production floor, handling on-robot tuning, sim-to-real fixes and post-launch debugging.</li>
+</ul>
+
+<div class="job">
+  <div class="row"><b>Freelance</b><span class="when">2026</span></div>
+  <div class="row"><i>SDE Intern (freelance)</i><span class="when"></span></div>
+</div>
+<ul>
+  <li>Completed multiple client projects end to end, from requirements to delivery.</li>
+  <li>Helped build internal tools and built integrations between client systems and third-party services.</li>
 </ul>
 
 <div class="job">
@@ -99,7 +108,7 @@
   <li>Created an agent that reads live API details, writes attack tests (SQL injection, XSS, broken access control) and improves them after each failed attempt.</li>
   <li>Split the testing pipeline into clear stages (input checks, fuzzing, auth checks, data exposure) so it scales across multi-service APIs.</li>
   <li>Found 34% more vulnerabilities than standard scanners and cut manual testing effort by 70%; published at IEEE AIRC 2026.</li>
-  <li>Built and deployed an <a href="projects/voice-agent.html">AI voice calling agent</a> for product outreach.</li>
+  <li>Built and deployed an <a href="projects/voice-agent.html">AI voice calling agent</a> (LangChain, RAG, Twilio, LiveKit, Cartesia) for product outreach.</li>
 </ul>
 
 <div class="job">
@@ -125,14 +134,17 @@
 
 <h2>Projects</h2>
 <ul>
+  <li><a href="projects/vulcan.html">Vulcan</a>: self-driving campus EV, perception and navigation lead. 2023 – present.</li>
+  <li class="pub"><span class="pub-tag">patent</span> <a href="projects/echosight.html">EchoSight</a>: navigation glasses for the visually impaired; navigation threat detection framework, patent application No. 202641029010. 2024 – present.</li>
+  <li class="pub"><span class="pub-tag">paper</span> <a href="projects/neurosecapi.html">Secure AI</a>: neuro-symbolic API security testing, IEEE AIRC 2026. 2024–25.</li>
+  <li class="pub"><span class="pub-tag">paper</span> <a href="projects/deepshield.html">DeepShield</a>: deepfake detection, IEEE iSAI-NLP 2025. 2023.</li>
   <li><a href="projects/patchpilot.html">PatchPilot</a>: multi-agent code review on LangGraph with ChromaDB memory. 2025.</li>
   <li><a href="projects/rag.html">Context-Preserving RAG</a>: hybrid vector + BM25 search with query routing and traceable answers. 2026.</li>
+  <li><a href="projects/voice-agent.html">AI Voice Calling Agent</a>: real-time phone agent with LangChain, RAG, Twilio, LiveKit and Cartesia. 2024–25.</li>
   <li><a href="projects/16fps.html">16fps</a>: multi-agent video generation. 2025 – present.</li>
-  <li><a href="projects/echosight.html">EchoSight</a>: navigation glasses for the visually impaired, patent pending. 2024 – present.</li>
   <li><a href="projects/rover.html">AprilTag Docking Rover</a>: ROS 2 rover with a docking mission state machine. 2025.</li>
   <li><a href="projects/matriai.html">MatriAI</a>: semantic profile matching with FastAPI, ChromaDB and MongoDB. 2025.</li>
-  <li><a href="projects/voice-agent.html">AI Voice Calling Agent</a>: real-time voice agent on Asterisk and ViciDial. 2024–25.</li>
-  <li>More: <a href="projects/sales-agent.html">AI Sales Agent Platform</a>, <a href="projects/woat.html">WOAT</a>, <a href="projects/deepshield.html">DeepShield</a>, <a href="projects/apk2abb.html">apk2abb</a>.</li>
+  <li>More: <a href="projects/sales-agent.html">AI Sales Agent Platform</a>, <a href="projects/woat.html">WOAT</a>, <a href="projects/apk2abb.html">apk2abb</a>.</li>
 </ul>
 
 <h2>Open source</h2>
@@ -143,12 +155,14 @@
 </ul>
 
 <h2>Publications, patent &amp; awards</h2>
-<ul>
-  <li><b>N. Jambula</b>, S. C. Sethuraman, et al., “A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing,” <i>7th International Conference on Artificial Intelligence, Robotics, and Control (AIRC)</i>, IEEE, 2026.
+<ul class="pubs">
+  <li><span class="pub-tag">paper</span> <b>N. Jambula</b>, S. C. Sethuraman, et al., “A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing,” <i>7th International Conference on Artificial Intelligence, Robotics, and Control (AIRC)</i>, IEEE, 2026.
     DOI: <a href="https://doi.org/10.1109/AIRC69745.2026.11631384">10.1109/AIRC69745.2026.11631384</a></li>
-  <li><b>N. Jambula</b>, N. K. Reddy, K. Pandey, M. Mahesh, “Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency,” <i>20th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)</i>, IEEE, 2025.
+  <li><span class="pub-tag">paper</span> <b>N. Jambula</b>, N. K. Reddy, K. Pandey, M. Mahesh, “Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency,” <i>20th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)</i>, IEEE, 2025.
     DOI: <a href="https://doi.org/10.1109/ISAI-NLP66160.2025.11320726">10.1109/ISAI-NLP66160.2025.11320726</a></li>
-  <li><b>Patent:</b> application No. 202641029010 (India, pending): threat detection system and navigation scoring algorithm.</li>
+  <li><span class="pub-tag">patent</span> <b>EchoSight</b>: navigation threat detection framework. Patent application No. 202641029010 (India, pending).</li>
+</ul>
+<ul>
   <li>Awardee, Vikas 2024 Innovation Challenge (EchoSight) · Winner, Engineering Clinics 2024 (real-time threat detection framework)</li>
   <li><a href="cite.html">BibTeX for both papers →</a></li>
 </ul>

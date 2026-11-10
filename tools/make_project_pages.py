@@ -44,12 +44,14 @@ def summary(desc, limit=158):
 def parse():
     s = SRC.read_text()
     projects, section = [], ""
-    for m in re.finditer(r'<h2>.*?</i>\s*(.*?)</h2>|<div class="proj" id="([^"]+)">(.*?)\n</div>', s, flags=re.S):
+    for m in re.finditer(r'<h2>.*?</i>\s*(.*?)</h2>|<div class="proj( pub)?" id="([^"]+)">(.*?)\n</div>', s, flags=re.S):
         if m.group(1) is not None:
             section = text(m.group(1))
             continue
-        pid, body = m.group(2), m.group(3)
-        h3 = re.search(r"<h3>(.*?)</h3>", body, flags=re.S).group(1)
+        pub, pid, body = bool(m.group(2)), m.group(3), m.group(4)
+        tag = re.search(r'<span class="pub-tag">(.*?)</span>', body)
+        body_no_tag = re.sub(r'<span class="pub-tag">.*?</span>\s*', '', body)
+        h3 = re.search(r"<h3>(.*?)</h3>", body_no_tag, flags=re.S).group(1)
         small = re.search(r"<small>\((.*?)\)</small>", h3, flags=re.S)
         name = text(re.sub(r"<small>.*?</small>", "", h3, flags=re.S))
         name = re.sub(r"^<a [^>]*>|</a>$", "", name)
@@ -57,8 +59,10 @@ def parse():
         paras = re.findall(r"<p>(.*?)</p>", body, flags=re.S)
         tools = re.search(r'<p class="tools">(.*?)</p>', body, flags=re.S)
         links = re.findall(r'<a href="(https?://[^"]+)">([^<]+)</a>', small.group(1)) if small else []
+        embed = re.search(r'<div class="embed">.*?</div>', body, flags=re.S)
         projects.append({
-            "id": pid, "name": name, "section": section,
+            "id": pid, "name": name, "section": section, "pub": pub,
+            "pub_label": tag.group(1) if tag else "", "embed": embed.group(0) if embed else "",
             "meta_html": small.group(1) if small else "",
             "desc_html": paras[0].strip() if paras else "",
             "desc": text(paras[0]) if paras else "",
@@ -139,7 +143,8 @@ def page(p, all_projects):
 <h1>{html.escape(p["name"])}<span class="cursor">_</span></h1>
 <p class="meta">{html.escape(p["section"])}{" · " + deeper(p["meta_html"]) if p["meta_html"] else ""} · by <a href="../../">Nithin Jambula</a></p>
 
-{photo}<p>{deeper(p["desc_html"])}</p>
+{photo}<div class="{'pub' if p['pub'] else 'plain'}">{('<span class="pub-tag">' + p['pub_label'] + '</span> ') if p['pub_label'] else ''}{deeper(p["desc_html"])}</div>
+{p["embed"]}
 
 <h2>Built with</h2>
 <p class="tools">{deeper(p["tools_html"])}</p>
@@ -161,7 +166,7 @@ def link_titles(projects):
     """Make each project title on projects.html link to its own page."""
     s = SRC.read_text()
     for p in projects:
-        block = re.search(rf'<div class="proj" id="{re.escape(p["id"])}">.*?<h3>', s, flags=re.S)
+        block = re.search(rf'<div class="proj(?: pub)?" id="{re.escape(p["id"])}">.*?<h3>(?:<span class="pub-tag">.*?</span> )?', s, flags=re.S)
         start = block.end()
         if s.startswith('<a href="projects/', start):
             continue

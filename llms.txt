@@ -1,6 +1,6 @@
 # Nithin Jambula
 
-> Robotics software engineer who explores different things: mostly software for robots, system architecture and AI agents. Builds robot behavior, perception and simulation testing software, multi-agent LLM systems and RAG. Based in Amaravati, India. Open to software engineering roles in robotics and AI systems.
+> Software engineer who builds software for robotics and agentic AI: robot behavior, perception and simulation testing that takes robots from MuJoCo/Webots to the real floor, and AI agents with RAG, LangGraph and voice. Based in Amaravati, India.
 
 - Email: nithinjambula89@gmail.com
 - GitHub: https://github.com/nithin434
@@ -8,7 +8,8 @@
 - CV (PDF): https://nithin434.github.io/public/CV.pdf
 
 ## Experience
-- Software Engineer, Robotics & Autonomy, Ananta Technologies (Dec 2025 – present): AprilTag-guided robot positioning, behavior trees with retries and fallbacks, a 50+ scenario MuJoCo/Webots test suite (35% faster validation), 2 robots taken from simulation to production, and rebuilt control links for CNC machines and H2D printers.
+- Software Engineer, Robotics & Autonomy, Ananta Technologies (Dec 2025 – present; joined as Software Engineer Intern, now full-time): AprilTag-guided robot positioning, behavior trees with retries and fallbacks, a 50+ scenario MuJoCo/Webots test suite (35% faster validation), 2 robots taken from simulation to production, and rebuilt control links for CNC machines and H2D printers.
+- SDE Intern (freelance, 2026): completed multiple client projects, internal tools and integrations.
 - Student Research Engineer, AIR Centre, VIT-AP University (Jun 2024 – Nov 2025): LLM agents with rule-based reasoning for API security testing (+34% vulnerabilities found, 70% less manual testing; IEEE AIRC 2026), and a real-time AI voice calling agent on Asterisk/ViciDial.
 - Software Lead, Vulcan self-driving campus EV (Jan 2023 – present): DeepLabV3+ segmentation (67%), lane following, CARLA + SAC + DAgger, NVIDIA Jetson; showcased at VLaunchpad 2025.
 - Machine Learning Engineer, Sripto (Dec 2023 – May 2024): RAG over private documents, PDF chatbots, NL-to-SQL.
@@ -20,7 +21,7 @@
 - [EchoSight](https://nithin434.github.io/public/projects/echosight.html): navigation glasses, YOLOv8 at 45+ FPS on a Raspberry Pi; patent pending; Vikas 2024 awardee.
 - [AprilTag Docking Rover](https://nithin434.github.io/public/projects/rover.html): ROS 2 rover with a docking mission state machine.
 - [MatriAI](https://nithin434.github.io/public/projects/matriai.html): semantic profile matching with FastAPI, LangChain, ChromaDB and MongoDB.
-- [AI Voice Calling Agent](https://nithin434.github.io/public/projects/voice-agent.html): real-time speech-to-text, LLM and text-to-speech calling agent.
+- [AI Voice Calling Agent](https://nithin434.github.io/public/projects/voice-agent.html): real-time phone agent with LangChain, RAG, Twilio, LiveKit and Cartesia.
 
 ## Open source contributions
 - microsoft/markitdown (190K+ stars): merged PR #2407 adding Python 3.14 support. https://github.com/microsoft/markitdown/pull/2407 . Open PR #2619, MCP setup docs for VS Code. https://github.com/microsoft/markitdown/pull/2619
@@ -30,7 +31,7 @@
 ## Publications
 - N. Jambula, S. C. Sethuraman, et al. "A Neuro-Symbolic AI Framework for Adaptive and Explainable API Security Testing." IEEE AIRC 2026. https://doi.org/10.1109/AIRC69745.2026.11631384
 - N. Jambula, N. K. Reddy, K. Pandey, M. Mahesh. "Securing Reality: AI-Driven Detection of Deepfakes and Counterfeit Currency." IEEE iSAI-NLP 2025. https://doi.org/10.1109/ISAI-NLP66160.2025.11320726
-- Patent application No. 202641029010 (India, pending): threat detection system and navigation scoring algorithm.
+- Patent application No. 202641029010 (India, pending): EchoSight navigation threat detection framework.
 
 ## Pages
 - [Home](https://nithin434.github.io/)

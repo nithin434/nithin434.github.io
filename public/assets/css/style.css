@@ -98,3 +98,18 @@ pre.cite { border: 1px solid #000; padding: 10px; overflow-x: auto; font-size: 1
   .proj img.photo { float: none; width: 100%; margin: 0 0 8px; }
   .terms { columns: 1; }
 }
+
+/* papers and patents: one soft blue tint wherever they appear */
+.pub { background: #eef3fc; border-left: 3px solid #2f5fcf; padding: 10px 14px; }
+.proj.pub { margin-left: -14px; margin-right: -14px; }
+.news tr.pub td { background: #eef3fc; }
+.news tr.pub td.d { box-shadow: inset 3px 0 0 #2f5fcf; padding-left: 8px; }
+ul.pubs { list-style: none; padding-left: 0; }
+ul.pubs li { background: #eef3fc; border-left: 3px solid #2f5fcf; padding: 8px 12px; margin: 8px 0; }
+.pub-tag { font-family: "Courier New", monospace; font-size: 12px; font-weight: normal; color: #2f5fcf;
+  border: 1px solid #2f5fcf; padding: 0 5px; vertical-align: 2px; text-transform: uppercase; letter-spacing: 1px; }
+
+/* embedded videos (local <video> or Drive iframe), always 16:9 */
+.embed { margin: 10px 0 4px; clear: both; }
+.embed iframe, .embed video { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 1px solid #000; background: #000; }
+@media (max-width: 600px) { .proj.pub { margin-left: 0; margin-right: 0; } }
