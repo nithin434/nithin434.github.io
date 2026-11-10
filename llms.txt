@@ -9,7 +9,7 @@
 
 ## Experience
 - Software Engineer, Robotics & Autonomy, Ananta Technologies (Dec 2025 – present; joined as Software Engineer Intern, now full-time): AprilTag-guided robot positioning, behavior trees with retries and fallbacks, a 50+ scenario MuJoCo/Webots test suite (35% faster validation), 2 robots taken from simulation to production, and rebuilt control links for CNC machines and H2D printers.
-- SDE Intern (freelance, 2026): completed multiple client projects, internal tools and integrations.
+- SDE Intern (2026): completed multiple projects, internal tools and integrations.
 - Student Research Engineer, AIR Centre, VIT-AP University (Jun 2024 – Nov 2025): LLM agents with rule-based reasoning for API security testing (+34% vulnerabilities found, 70% less manual testing; IEEE AIRC 2026), and a real-time AI voice calling agent on Asterisk/ViciDial.
 - Software Lead, Vulcan self-driving campus EV (Jan 2023 – present): DeepLabV3+ segmentation (67%), lane following, CARLA + SAC + DAgger, NVIDIA Jetson; showcased at VLaunchpad 2025.
 - Machine Learning Engineer, Sripto (Dec 2023 – May 2024): RAG over private documents, PDF chatbots, NL-to-SQL.
